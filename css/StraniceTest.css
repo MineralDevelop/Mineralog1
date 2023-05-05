@@ -1,0 +1,275 @@
+/* REZERVA */
+
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Kanit';
+}
+
+body{
+  background-color: rgb(243, 243, 243); /* 3x 243 */
+}
+
+.Ogreb{
+  text-shadow: 0.03vw 0.03vw 0.05vw black, 
+  -0.03vw 0.03vw 0.05vw black,
+  0.03vw -0.03vw 0.05vw black,
+  -0.03vw -0.03vw 0.05vw black;
+}
+
+.smanjenje{
+  margin-bottom: -3vw;
+}
+
+.stupac1{
+  display: flex;
+  
+  flex-direction: column;
+}
+.stupac2{
+  display: flex;
+  
+  flex-direction: column;
+}
+.SkupBoja{
+  text-size-adjust: none;
+  font-size: 0;
+  display: flex;
+  flex-direction: row;
+  line-height: 1.3vw;
+  
+}
+.Boja{
+  text-size-adjust: none;
+  display: flex;
+  height: fit-content; /* NEMA */
+  font-size: 1.6vw;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+  
+}
+
+.Naslov{
+  background-color: rgb(243, 243, 243);
+  font-size: 4.3vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+  height: 8vw;
+}
+
+.Sve{
+  display: flex;
+}
+
+.Okvir-Slike{
+  display: flex;
+  flex-direction: column;
+}
+.Slika{
+  display: flex;
+  margin: 2vw;
+  margin-bottom: 0.5vw;
+  margin-top: 5vw;
+  height: 30vw;
+  width: 30vw;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 3vw;
+  border: solid;
+  border-width: 0.17vw;
+}
+.Opis-Slike{
+  display: flex;
+  text-size-adjust: none;
+  width: 30vw;
+  font-size: 1vw;
+  margin-bottom: 2.5vw;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  align-self: center;
+}
+
+.Opis{
+  display: flex;
+  flex-direction: column;
+  font-size: 2vw;
+  line-height: 3.2vw;
+}
+.Okvir-Opisa{
+  margin: 2vw;
+  margin-top: 5vw;
+  display: flex;
+}
+
+
+
+.Sva-Svojstva{
+  text-size-adjust: none;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  font-size: 2vw;
+  margin: 1.6vw;
+  margin-top: 4.5vw;
+  text-decoration: underline;
+}
+.Svojstva{
+  text-size-adjust: none;
+  display: flex;
+  flex-direction: column;
+}
+.Fizicka-Svojstva{
+  height: fit-content; /* NEMA */
+  text-size-adjust: none;
+  line-height: 3.2vw; /*3.2*/
+  font-size: 1.6vw;
+  margin: 1.5vw;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.ujedinjenje{
+  
+  line-height: 1.3vw; /* između formule i gupa */
+}
+
+.Boxx{
+  height: fit-content;
+}
+
+
+.Postotak-Elemenata{
+  text-size-adjust: none;
+  display: flex;
+  height: fit-content; /* NEMA */
+  font-size: 1.6vw;
+  justify-content: space-between;
+  margin-top: 0vw;
+  margin-bottom: 0vw;
+}
+.Postotak{
+  text-size-adjust: none;
+  display: flex;
+}
+
+.Kutija{
+  height: fit-content; /* NEMA */
+  text-size-adjust: none;
+  margin-top: 2vw;
+  display: flex;
+  flex-direction: row;
+  align-items: top;
+  justify-content: space-around; /*space evenly*/
+}
+
+.Elementi{
+  text-size-adjust: none;
+  font-size: 0;
+  display: flex;
+  flex-direction: column;
+  line-height: 1.3vw;
+}
+
+.Parametri-Ćelije{
+  text-size-adjust: none;
+  font-size: 1.6vw;
+  display: flex;
+  align-items: center;
+}
+
+.Kristalografija{
+  text-size-adjust: none;
+  line-height: 3.2vw;
+  font-size: 1.6vw;
+  margin: 1.5vw;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.Paragraf{ /* izvana */
+  text-size-adjust: none;
+  display: flex;
+  line-height: 1.5vw;
+}
+.Pgraf{ /* iznutra */
+  text-size-adjust: none;
+  display: flex;
+  flex-direction: column;
+  font-size: 1.6vw;
+  margin-left: 1.6vw;
+}
+.graf{ /* iznutra */
+  text-size-adjust: none;
+  display: flex;
+  flex-direction: row;
+  font-size: 1.6vw;
+}
+
+.Pomak-Gore{
+  text-size-adjust: none;
+  margin-top: -0.5vw;
+  font-size: 1.6vw;
+  margin-left: -0.7vw;
+}
+
+.Pomak-Dolje{
+  text-size-adjust: none;
+  margin-top: 1vw;
+  margin-bottom: -1vw;
+  font-size: 1.6vw;
+  margin-left: 1.4vw;
+}
+
+.Pomak{
+  text-size-adjust: none;
+  margin-top: 0.5vw;
+  margin-bottom: -0.5vw;
+  font-size: 1.6vw;
+  margin-left: 1.4vw;
+}
+
+/* dno */
+
+.Dno{
+  text-size-adjust: none;
+  font-size: 1.6vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+  margin-top: 3vw;
+}
+
+.galerija{
+  text-decoration: underline;
+  color: blue;
+}
+.galerija:hover{
+  color: red;
+}
+.galerija:active{
+  color: black;
+}
+
+.Autor{
+  text-size-adjust: none;
+  font-size: 1.6vw;
+  display: flex;
+  justify-content: right;
+  margin-right: 4vw;
+  margin-top: 1vw;
+  padding-bottom: 7vw;
+}
+
+.BojaSetup{
+  margin-bottom: -3.3vw;
+  display: flex;
+  align-items: center;
+}
