@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans&family=Zilla+Slab:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  background-color: rgb(245, 245, 245);
+}
+
+.dec-none{
+  text-decoration: none;
+}
+
+.Gumb-Nazad{
+  font-family: 'Rubik';
+  display: flex;
+  border: none;
+  margin-left: 1.5vw;
+  width: 100%;
+  height: 3.5vw;
+  font-size: 1.7vw;
+  font-weight: 400;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+}
+.Gumb-Nazad:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+.Gumb-Nazad:active{
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.Nazad{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  background-color: rgb(0, 183, 255);
+  border-bottom-style: solid;
+  border-bottom-width: 0.2vw;
+}
+.Sredina{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 3.5vw;
+  border: none;
+}
+
+.PSE{
+  display: flex;
+  /*border: solid;*/
+  margin-top: 1vw;
+  padding: none;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.IzPSEMetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.4vw;
+  width: 8.3vw;
+  height: 8.3vw;
+
+  background-color: #6495ED;
+}
+.IzPSENemetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.4vw;
+  width: 8.3vw;
+  height: 8.3vw;
+
+  background-color: #CCCCFF;
+}
+.IzPSEPolumetal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border: solid;
+  border-width: 0.4vw;
+  width: 8.3vw;
+  height: 8.3vw;
+
+  background-color: #1ABC9C;
+}
+
+.AtomskiBroj{
+  font-size: 1.4vw;
+  margin-bottom: -0.6vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.Ime{
+  font-size: 1.6vw;
+  margin-top: -0.6vw;
+  font-weight: bold;
+  font-family: 'Zilla Slab';
+}
+.Relativna{
+  font-size: 1.4vw;
+  margin-top: -0.3vw;
+  font-family: 'work sans';
+  font-weight: bold;
+}
+.Simbol{
+  font-size: 4vw;
+  margin-top: -0.2vw;
+  font-family: 'Zilla Slab';
+}
+.Simbol-Plin{
+  font-size: 4vw;
+  margin-top: -0.2vw;
+  color: #ffffff;
+  font-family: 'Zilla Slab';
+}
+.Simbol-Tekucina{
+  font-size: 4vw;
+  margin-top: -0.2vw;
+  color: #f72fe6;
+  font-family: 'Zilla Slab';
+}
+
+.Detalji{
+  display: flex;
+  margin-left: 1.5vw;
+}
+.SimbolPSE{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.BrojProtona{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.BrojElektorna{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.BrojNeutrona{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.Taliste{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.Vreliste{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.AtomskaMasa{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.AgregatnoStanje{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.Radio{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.Umjetan{
+  font-size: 1.5vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+
+.O-elementu{
+  display: flex;
+}
+
+.Pgraf{
+  font-size: 1.3vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+  margin-left: 2vw;
+  margin-top: 1vw;
+}
+
+
+.CT{
+  border: solid;
+  width: 30vw;
+  height: 8vw;
+}
+
+.Smjesa{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-bottom: solid;
+  height: 20%;
+
+  font-size: 1vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.Podatci1{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 0.2vw;
+  height: 19.3%;
+
+  font-size: 1vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.Podatci{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: solid;
+  border-width: 0.1vw;
+  height: 18.45%;
+
+  font-size: 1vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+}
+.I{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: solid;
+
+  width: 25%;
+  height: 100%;
+}
+.S{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: solid;
+
+  width: 25%;
+  height: 100%;
+}
+.O{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  width: 50%;
+  height: 100%;
+}
+
+.Minerali{
+  border: solid;
+  margin-left: 2vw;
+  margin-right: 2vw;
+  margin-top: 2vw;
+  border-width: 0.15vw;
+  margin-bottom: 2vw;
+}
+.Naslov{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.6vw;
+  border: solid;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+
+  border-width: 0.15vw;
+}
+.Raspodjela{
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+
+  border-width: 0.15vw;
+  border-bottom-width: 0.25vw;
+}
+
+.ImeMin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  font-family: 'source serif pro';
+  font-weight: bold;
+
+  border-right: solid;
+  border-width: 0.25vw;
+
+  width: 25%;
+}
+.FormulaMin{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  font-family: 'source serif pro';
+  font-weight: bold;
+
+  width: 50%;
+}
+.PostotakEle{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 1.8vw;
+  font-size: 1.4vw;
+  font-family: 'source serif pro';
+  font-weight: bold;
+
+  border-left: solid;
+  border-width: 0.25vw;
+
+  width: 25%;
+}
+
+.ImeMinU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+
+  border-right: solid;
+  border-width: 0.1vw;
+
+  width: 25%;
+}
+.FormulaMinU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'Zilla Slab';
+  font-weight: bold;
+
+  width: 50%;
+}
+.PostotakEleU{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'source serif pro';
+
+  border-left: solid;
+  border-width: 0.1vw;
+
+  width: 25%;
+}
+
+.RaspodjelaM{
+  display: flex;
+  justify-content: space-around;
+  border: solid;
+  border-top: none;
+  border-width: 0.15vw;
+  border-top-width: 0.1vw;
+}
