@@ -140,6 +140,7 @@ body{
 .Detalji{
   display: flex;
   margin-left: 1.5vw;
+  text-size-adjust: none;
 }
 .SimbolPSE{
   font-size: 1.5vw;
@@ -202,6 +203,9 @@ body{
   font-weight: bold;
   margin-left: 2vw;
   margin-top: 1vw;
+
+
+  text-size-adjust: none; /***********************/
 }
 
 
@@ -209,6 +213,7 @@ body{
   border: solid;
   width: 30vw;
   height: 8vw;
+  border-width: 0.2vw;
 }
 
 .Smjesa{
@@ -216,6 +221,7 @@ body{
   justify-content: center;
   align-items: center;
   border-bottom: solid;
+  border-bottom-width: 0.2vw;
   height: 20%;
 
   font-size: 1vw;
@@ -227,7 +233,7 @@ body{
   justify-content: space-around;
   align-items: center;
   border-bottom: solid;
-  border-width: 0.2vw;
+  border-bottom-width: 0.2vw;
   height: 19.3%;
 
   font-size: 1vw;
@@ -251,18 +257,22 @@ body{
   justify-content: center;
   align-items: center;
   border-right: solid;
+  border-right-width: 0.1vw;
 
   width: 25%;
   height: 100%;
+  text-size-adjust: none;
 }
 .S{
   display: flex;
   justify-content: center;
   align-items: center;
   border-right: solid;
+  border-right-width: 0.1vw;
 
   width: 25%;
   height: 100%;
+  text-size-adjust: none;
 }
 .O{
   display: flex;
@@ -271,6 +281,7 @@ body{
 
   width: 50%;
   height: 100%;
+  text-size-adjust: none;
 }
 
 .Minerali{
