@@ -4,7 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
 /*@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@900&display=swap');*/
-
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
 *{
   margin: 0;
   padding: 0;
@@ -227,7 +227,6 @@ body{
 .CT{
   border: solid;
   width: 30vw;
-  height: 8vw;
   border-width: 0.2vw;
 }
 
@@ -240,8 +239,8 @@ body{
   height: 20%;
 
   font-size: 1vw;
-  font-family: 'Zilla Slab';
-  font-weight: bold;
+  font-family: 'Rubik';
+  /*font-weight: bold;*/
 }
 .Podatci1{
   display: flex;
@@ -252,8 +251,8 @@ body{
   height: 19.3%;
 
   font-size: 1vw;
-  font-family: 'Zilla Slab';
-  font-weight: bold;
+  font-family: 'Rubik';
+  /*font-weight: bold;*/
 }
 .Podatci{
   display: flex;
@@ -264,15 +263,13 @@ body{
   height: 18.45%;
 
   font-size: 1vw;
-  font-family: 'Zilla Slab';
-  font-weight: bold;
+  font-family: 'Rubik';
+  /*font-weight: bold;*/
 }
 .I{
   display: flex;
   justify-content: center;
   align-items: center;
-  border-right: solid;
-  border-right-width: 0.1vw;
 
   width: 25%;
   height: 100%;
@@ -284,6 +281,8 @@ body{
   align-items: center;
   border-right: solid;
   border-right-width: 0.1vw;
+  border-left: solid;
+  border-left-width: 0.1vw;
 
   width: 25%;
   height: 100%;
@@ -332,10 +331,10 @@ body{
 
 .Minerali{
   border: solid;
+  border-width: 0.25vw;
   margin-left: 2vw;
   margin-right: 2vw;
   margin-top: 2vw;
-  border-width: 0.15vw;
   margin-bottom: 2vw;
 }
 .Naslov{
@@ -344,18 +343,16 @@ body{
   align-items: center;
   height: 2vw;
   font-size: 1.6vw;
-  border: solid;
+  border-bottom: solid;
   font-family: 'Rubik';
   font-weight: bold;
 
-  border-width: 0.15vw;
+  border-bottom-width: 0.25vw;
 }
 .Raspodjela{
   display: flex;
   justify-content: space-around;
-  border: solid;
-
-  border-width: 0.15vw;
+  border-bottom: solid;
   border-bottom-width: 0.25vw;
 }
 
@@ -369,7 +366,7 @@ body{
   font-weight: bold;
 
   border-right: solid;
-  border-width: 0.25vw;
+  border-right-width: 0.25vw;
 
   width: 25%;
 }
@@ -394,7 +391,7 @@ body{
   font-weight: bold;
 
   border-left: solid;
-  border-width: 0.25vw;
+  border-left-width: 0.25vw;
 
   width: 25%;
 }
@@ -408,7 +405,7 @@ body{
   font-family: 'Rubik';
 
   border-right: solid;
-  border-width: 0.1vw;
+  border-width: 0.15vw;
 
   width: 25%;
 }
@@ -431,7 +428,7 @@ body{
   font-family: 'rubik';
 
   border-left: solid;
-  border-width: 0.1vw;
+  border-width: 0.15vw;
 
   width: 25%;
 }
@@ -439,25 +436,15 @@ body{
 .RaspodjelaM{
   display: flex;
   justify-content: space-around;
-  border: solid;
-  border-top: none;
-  border-width: 0.15vw;
-  border-top-width: 0.1vw;
+  border-top: solid;
+  border-top-width: 0.15vw;
+}
+.RaspodjelaPrvi{
+  display: flex;
+  justify-content: space-around;
 }
 
 /* test */
-/*.Pgraf{
-  font-size: 1.3vw;
-  font-family: 'Zilla Slab';
-  font-weight: bold;
-  margin-left: 2vw;
-  margin-top: 1vw;
-  line-height: 1.8vw;
-
-
-  text-size-adjust: none; 
-}*/
-
 
 .JedanRed{
   display: flex;
@@ -489,7 +476,25 @@ body{
   display: flex;
   align-items: center;
   justify-content: left;
+  font-size: 1.3vw;
+  font-family: 'roboto slab';
+  text-size-adjust: none;
 
   /*border: solid;
   border-width: 0.1vw;*/
+}
+
+.RaspodjelaNema{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2vw;
+  font-size: 1.4vw;
+  font-family: 'Rubik';
+}
+
+.Brojke{
+  font-family: 'Rubik';
+  font-weight: 400;
+  font-size: 1.2vw;
 }
