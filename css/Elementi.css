@@ -227,7 +227,7 @@ body{
 
 .CT{
   border: solid;
-  width: 30vw;
+  /*width: 30vw;*/
   border-width: 0.2vw;
 }
 
@@ -243,92 +243,7 @@ body{
   font-family: 'Rubik';
   /*font-weight: bold;*/
 }
-.Podatci1{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: solid;
-  border-bottom-width: 0.2vw;
-  height: 19.3%;
 
-  font-size: 1vw;
-  font-family: 'Rubik';
-  /*font-weight: bold;*/
-}
-.Podatci{
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border-bottom: solid;
-  border-width: 0.1vw;
-  height: 18.45%;
-
-  font-size: 1vw;
-  font-family: 'Rubik';
-  /*font-weight: bold;*/
-}
-.I{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 25%;
-  height: 100%;
-  text-size-adjust: none;
-}
-.S{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: solid;
-  border-right-width: 0.1vw;
-  border-left: solid;
-  border-left-width: 0.1vw;
-
-  width: 25%;
-  height: 100%;
-  text-size-adjust: none;
-}
-.O{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 50%;
-  height: 100%;
-  text-size-adjust: none;
-}
-.IN{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: solid;
-  border-right-width: 0.2vw;
-
-  width: 25%;
-  height: 100%;
-  text-size-adjust: none;
-}
-.SN{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-right: solid;
-  border-right-width: 0.2vw;
-
-  width: 25%;
-  height: 100%;
-  text-size-adjust: none;
-}
-.ON{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  width: 50%;
-  height: 100%;
-  text-size-adjust: none;
-}
 
 .Minerali{
   border: solid;
@@ -546,4 +461,122 @@ body{
 }
 .Razmak2{
   height: 0.5vw;
+}
+
+
+.Podatci11{
+  display: flex;
+  align-items: center;
+
+  font-size: 1vw;
+  font-family: 'Rubik';
+  border-bottom: solid;
+  border-bottom-width: 0.2vw;
+}
+.P1,.P2,.P3,.P4,.P5{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.P1{
+  width: 4.5vw
+  
+}
+.P2{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.2vw;
+  border-left: solid;
+  border-left-width: 0.2vw;
+  font-size: 0.8vw;
+}
+.P3{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.2vw;
+  font-size: 0.8vw;
+}
+.P4{
+  width: 6vw;
+  border-right: solid;
+  border-right-width: 0.2vw;
+  font-size: 0.8vw;
+}
+.P5{
+  width: 8vw;
+}
+
+.Podatci2{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 0.85vw;
+  font-family: 'Rubik';
+  border-bottom: solid;
+  border-bottom-width: 0.1vw;
+  /*border: solid blue;
+  border-width: 0.1vw;*/
+}
+
+.P12,.P22,.P32,.P42,.P52{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-bottom-width: 0.1vw;
+  /*border: solid red;
+  border-width: 0.1vw;*/
+  height: 1.5vw;
+}
+.P12{
+  width: 4.5vw;
+  border-right: solid;
+  border-right-width: 0.1vw;
+}
+.P22{
+  width: 6.05vw;
+  border-right: solid;
+  border-right-width: 0.1vw;
+  /*border-left: solid;
+  border-left-width: 0.1vw;*/
+}
+.P32{
+  width: 6.05vw;
+  border-right: solid;
+  border-right-width: 0.1vw;
+  /*font-size: 1.15vw;*/
+}
+.P42{
+  width: 6.05vw;
+  border-right: solid;
+  border-right-width: 0.1vw;
+}
+.P52{
+  width: 8vw;
+}
+
+.Podatci2Dno{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  font-size: 0.85vw;
+  font-family: 'Rubik';
+  border-bottom-width: 0.1vw;
+  /*border: solid blue;
+  border-width: 0.1vw;*/
+}
+
+.Stabilan{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 18.35vw;
+  /*border-left: solid;
+  border-left-width: 0.1vw;*/
+  border-right: solid;
+  border-right-width: 0.1vw;
+  height: 1.5vw;
 }
