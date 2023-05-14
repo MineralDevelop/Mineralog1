@@ -11,7 +11,7 @@
 }
 
 body{
-  background-color: rgb(245, 245, 245);
+  background-color: #FFFFFF;
 }
 
 .dec-none{
@@ -126,6 +126,7 @@ body{
 .Simbol{
   font-size: 4vw;
   margin-top: -0.2vw;
+  color: black;
   font-family: 'Zilla Slab';
 }
 .Simbol-Plin{
@@ -403,6 +404,7 @@ body{
   height: 2vw;
   font-size: 1.4vw;
   font-family: 'Rubik';
+  font-weight: 200;
 
   border-right: solid;
   border-width: 0.15vw;
@@ -416,6 +418,7 @@ body{
   height: 2vw;
   font-size: 1.4vw;
   font-family: 'Rubik';
+  font-weight: 200;
 
   width: 50%;
 }
@@ -426,6 +429,7 @@ body{
   height: 2vw;
   font-size: 1.4vw;
   font-family: 'rubik';
+  font-weight: 200;
 
   border-left: solid;
   border-width: 0.15vw;
@@ -438,6 +442,7 @@ body{
   justify-content: space-around;
   border-top: solid;
   border-top-width: 0.15vw;
+  
 }
 .RaspodjelaPrvi{
   display: flex;
@@ -449,8 +454,8 @@ body{
 .JedanRed{
   display: flex;
 
-  /*border: solid;*/
-  /*border-width: 0.1vw;
+  /*border: solid;
+  border-width: 0.1vw;
   border-color: blue;*/
 }
 .Str{
@@ -497,4 +502,48 @@ body{
   font-family: 'Rubik';
   font-weight: 400;
   font-size: 1.2vw;
+}
+
+.BrojUJednadzbi{
+  margin-bottom: -0.6vw;
+  font-size: 0.9vw;
+}
+
+.OznakaStanjaUJednadzbi{
+  margin-bottom: -0.5vw;
+  font-size: 0.9vw;
+}
+
+.StrManja{
+  display: flex;
+  align-items: center;
+  font-size: 1.5vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+}
+
+.txtBezAligna{
+  justify-content: left;
+  font-size: 1.3vw;
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+  margin-bottom: -0.2vw;
+
+  /*border: solid;
+  border-width: 0.1vw;*/
+}
+
+.StrManjaPodskup{
+  display: flex;
+  align-items: center;
+  font-size: 1vw;
+  padding-right: 0.5vw;
+  height: 1.85vw;
+}
+
+.Razmak{
+  height: 1vw;
+}
+.Razmak2{
+  height: 0.5vw;
 }
