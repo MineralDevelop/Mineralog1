@@ -9,7 +9,7 @@
 }
 
 body{
-  background-color: rgb(243, 243, 243); 
+  background-color: rgb(243, 243, 243);
 }
 
 .Sidro{
@@ -25,16 +25,12 @@ body{
   align-items: center;
 }
 
-
-
-
-
-
-
-
 .Redak{
   display: flex;
   line-height: 15pt;
+  font-size: 14pt;
+  /*background-color: rgb(209, 248, 209);*/
+  
 }
 .Strelica{
   display: flex;
@@ -45,19 +41,14 @@ body{
 .Tekst{
   font-size: 14pt;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
+.SamoBoja{
+  background-color: rgb(209, 248, 209);
+  line-height: 10pt;
+  border: solid;
+  border-width: 2pt;
+  border-top: none;
+  padding-left: 2pt;
+}
 .StrelicaPPV{
   display: flex;
   align-items: top;
@@ -80,9 +71,15 @@ body{
 }
 
 .Djelovi{
+  padding-left: 5pt;
+  display: flex;
+  align-items: center;
   font-size: 14pt;
   font-weight: bold;
-
+  background-color: rgb(65, 190, 65);
+  height: 20pt;
+  border: solid;
+  border-width: 2pt;
 }
 
 .DjeloviBoxa{
@@ -95,29 +92,6 @@ body{
   border-bottom: solid;
   border-bottom-width: 1.5pt;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .Naslov{
   background-color: rgb(243, 243, 243);
@@ -133,14 +107,19 @@ body{
 .Sve{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 10pt;
   margin-top: 10pt;
 }
-
+.Par{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
 .Okvir-Slike{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
 .Slika{
   display: flex;
@@ -160,9 +139,9 @@ body{
 }
 .Opis-Slike{
   display: flex;
-  margin-left: 10pt;
   text-size-adjust: none;
   width: 270pt;
+  margin-top: 3pt;
   align-items: center;
   justify-content: center;
   text-align: center;
@@ -211,22 +190,22 @@ body{
 }
 
 .Pgraf{ /* iznutra */
-  text-size-adjust: none;
   display: flex;
   flex-direction: column;
-  font-size: 14pt;
-  line-height: 10pt;
+  /*line-height: 10pt;*/ /*MAKNUTO, VRATI*/
   margin-left: 15pt;
+  margin-right: 15pt;
 }
 
 .Dno{
+  margin-left: 20pt;
+  margin-right: 20pt;
   font-size: 14pt;
-  display: flex;
-  justify-content: center;
   margin-top: 40pt;
 }
 
 .galerija{
+  border: solid;
   text-decoration: underline;
   color: blue;
 }
@@ -246,6 +225,193 @@ body{
   margin-top: 10pt;
   padding-bottom: 50pt;
 }
+
+
+
+.Suzavanje{
+  width: 65%;
+  background-color: rgb(233, 233, 233);
+}
+.SuzavanjeSve{
+  display: flex;
+  justify-content: center;
+  background-color: rgb(3, 3, 138);
+}
+
+@media (max-width: 600px){
+
+  .Par{
+    flex-direction: column;
+    width: 50%;
+  }
+
+  .Sve{
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .Okvir-Slike{
+    align-items: center;
+  }
+
+  .Slika{
+    width: 35vw;
+    height: 35vw;
+  }
+
+  .Okvir-Slike{
+    align-items: center;
+  }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 785px){
+
+  .Par{
+    flex-direction: column;
+  }
+
+  .Sve{
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .Okvir-Slike{
+    align-items: center;
+  }
+
+  .Slika{
+    width: 40vw;
+    height: 40vw;
+  }
+
+}
+
+@media screen and (min-width: 786px) and (max-width: 1000px){
+
+  .Par{
+    flex-direction: column;
+  }
+
+  .Sve{
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .Okvir-Slike{
+    align-items: center;
+  }
+
+  .Slika{
+    width: 40vw;
+    height: 25vw;
+  }
+
+}
+
+@media (min-width: 1001px) {
+
+  .Slika{
+    width: 20vw;
+    height: 20vw;
+  }
+
+  .Okvir-Slike{
+    width: 25vw;
+  }
+
+}
+
+/*
+.Sve{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10pt;
+  margin-top: 10pt;
+}
+.Par{
+  display: flex;
+  width: 50%;
+  justify-content: space-around;
+}
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .B{
 
@@ -470,4 +636,3 @@ body{
   border-width: 2.5pt;
   font-size: 14pt;
 }
-
