@@ -1284,7 +1284,7 @@ body{
   font-family: 'roboto slab'; 
   text-align: justify;
   padding-right: 1vw; 
-  padding-top: 0.2vw; 
+  /*padding-top: 0.2vw; */
   padding-left: 0.5vw; 
   line-height: 1.5vw;
 }
@@ -1317,4 +1317,42 @@ body{
   position: relative;
   font-size: 0.8vw;
   top: 0.25vw;
+}
+.SupSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  bottom: 0.25vw;
+}
+
+.FormulaPodnaslova{
+  padding-left: 0.1vw;
+  padding-right: 0.1vw;
+}
+
+.SubSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.45vw;
+}
+.SupSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  bottom: 0.2vw;
+}
+
+.TekstKoristiwSpoj{
+  display: flex;
+  flex-direction: row;
+  font-size: 1vw; 
+  font-family: 'roboto slab'; 
+  text-align: justify;
+  padding-right: 1vw; 
+  /*padding-top: 0.2vw; */
+  padding-left: 0.5vw; 
+  line-height: 1.5vw;
+  width: 100%;
+  justify-content: space-between;
 }
