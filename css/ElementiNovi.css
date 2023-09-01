@@ -1269,6 +1269,7 @@ body{
   width: 100%;
   justify-content: space-between;
   padding-right: 1vw;
+  text-align: justify;
 }
 .TekstPodnaslova{
   display: flex;
@@ -1355,4 +1356,40 @@ body{
   line-height: 1.5vw;
   width: 100%;
   justify-content: space-between;
+}
+
+.Test{
+  display: flex;
+  align-items: center;
+  margin-right: -0.5vw;
+  margin-top: 0.1vw;
+  font-weight: bold;
+  rotate: -90deg;
+  
+}
+.Test2{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  rotate: 90deg;
+  margin-right: -0.2vw;
+  
+}
+
+.KucicaPredset{
+  display: flex;
+  border: none;
+}
+
+.KucicaPredsetP{
+  display: flex;
+  margin-left: -0.3vw;
+  margin-top: -0.25vw;
+}
+
+.SpojSpoj{
+  display: flex;
+  flex-direction: column;
+  align-items: end;
+  padding-left: 1vw;
 }
