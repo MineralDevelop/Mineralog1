@@ -704,7 +704,7 @@ body{
   border-right: none; /*makni*/
 
   height: 1vw;
-  width: 3.2vw;
+  width: fit-content;
   margin-left: 0.2vw;
 }
 .Dkockica{
@@ -712,7 +712,7 @@ body{
   border: solid;
   border-right: none;
   height: 1vw;
-  width: 5.5vw;
+  width: fit-content;
   margin-left: 0.2vw;
 }
 .Fkockica{
@@ -720,7 +720,7 @@ body{
   border: solid;
   border-right: none;
   height: 1vw;
-  width: 7.7vw;
+  width: fit-content;
   margin-left: 0.2vw;
 }
 .Skockica,.Pkockica,.Dkockica,.Fkockica{
@@ -805,7 +805,7 @@ body{
 }
 
 .OTubi{
-  display: flex;
+  /*display: flex;*/
   font-size: 0.85vw;
   font-family: 'roboto slab';
   font-weight: bold;
@@ -813,7 +813,6 @@ body{
   width: 30vw;
   text-align: justify;
 }
-
 .Zajednica{
   display: flex;
   flex-direction: row;
@@ -1335,6 +1334,12 @@ body{
   vertical-align: top;
   position: relative;
   font-size: 0.8vw;
+  top: 0.45vw;
+}
+.SubSetFor{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.6vw;
   top: 0.45vw;
 }
 .SupSet2{
