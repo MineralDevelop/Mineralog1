@@ -9,24 +9,23 @@
 .Neon{
   position: relative;
   display: inline-block;
-  padding: 10px 17px;
+  padding: 0.5vw 0.8vw;
   text-transform: uppercase;
-  letter-spacing: 4px;
+  letter-spacing: 0.1vw;
   color: royalblue;
-  font-size: 1.2rem;
+  font-size: 1vw;
   font-weight: bold;
   transition: .5s;
   overflow: hidden;
-  margin-right: 70px;
   text-decoration: none;
 }
 .Neon:hover{
   background-color: royalblue;
   color: #050801;
-  box-shadow: 0 0 5px royalblue,
-              0 0 25px royalblue,
-              0 0 50px royalblue,
-              0 0 200px royalblue;
+  box-shadow: 0 0 0.3vw royalblue,
+              0 0 0.8vw royalblue,
+              0 0 1.5vw royalblue,
+              0 0 3vw royalblue;
 
   /*-webkit-box-reflect: below 1px linear-gradient(transparent, #0005);*/
 }
