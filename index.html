@@ -4,6 +4,7 @@
   <link rel="stylesheet" href="css/zaglavlje.css">
   <link rel="stylesheet" href="css/blog.css">
   <link rel="stylesheet" href="css/NeonskiGumbic.css">
+  <link rel="stylesheet" href="css/Slider.css">
   <title>Mineralogija</title>
 </head>
 <body>
@@ -13,20 +14,73 @@
   <div class="Zaglavlje" style="background-color: rgb(51, 51, 51);">
 
     <div class="Lijevo1" style="background-color: rgb(51, 51, 51); margin-left: 2vw;">
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/index.html"> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>Mineralogija.hr </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/index.html"> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>Mineralogija.hr </a>
     </div>
 
     <div class="Desno1" style="background-color: rgb(51, 51, 51)">
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/PSEtest.html" style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> PSE </a>
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/Minerali.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Minerali </a>
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/Galerija.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Galerija </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/PSEtest.html" style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> PSE </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/Minerali.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Minerali </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/Galerija.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Galerija </a>
     </div>
 
   </div>
 
   <!-- Blog -->
 
-  <div class="Mineralogija-moj-hobi">
+  <!--<div class="NaslovAnimirani">Dobrodošli u svijet minerala</div>-->
+
+  <div class="CSSgal">
+
+    <!-- Don't wrap targets in parent -->
+    <s id="s1"></s> 
+    <s id="s2"></s>
+    <s id="s3"></s>
+    <s id="s4"></s>
+  
+    <div class="slider">
+      <div style="background:rgb(51, 51, 51);">
+        <div class="OPIS">Aragonit - CaCO<sub class="SubSet">3</sub></div>
+        <img style="height: 100%;" src="/Mineralog1/Slike/Aragonit.jpg" alt="">
+      </div>
+      <div style="background:rgb(51, 51, 51);">
+        <div class="OPIS">Ahat - SiO<sub class="SubSet">2</sub></div>
+        <img style="height: 100%;" src="/Mineralog1/Slike/Ahat_ruža.jpg" alt="">
+      </div>
+      <div style="background:rgb(51, 51, 51);">
+        <div class="OPIS">Vanadinit - Pb<sub class="SubSet">5</sub>(VO<sub class="SubSet">4</sub>)<sub class="SubSet">3</sub></div>
+        <img style="height: 100%;" src="/Mineralog1/Slike/IMGimp.JPG" alt="">
+      </div>
+      <div style="background:rgb(51, 51, 51);">
+        <div class="OPIS">Bizmut - Bi</div>
+        <img style="height: 100%;" src="/Mineralog1/Slike/Bizmut-min.jpg" alt="">
+      </div>
+    </div>
+    
+    <div class="prevNext">
+      <div><a href="#s4"><b>&#8249;</b></a><a href="#s2"><b>&#8250;</b></a></div>
+      <div><a href="#s1"><b>&#8249;</b></a><a href="#s3"><b>&#8250;</b></a></div>
+      <div><a href="#s2"><b>&#8249;</b></a><a href="#s4"><b>&#8250;</b></a></div>
+      <div><a href="#s3"><b>&#8249;</b></a><a href="#s1"><b>&#8250;</b></a></div>
+    </div>
+  
+    <div class="bullets">
+      <a href="#s1"></a>
+      <a href="#s2"></a>
+      <a href="#s3"></a>
+      <a href="#s4"></a>
+    </div>
+  
+  </div>
+
+
+
+  <div>&copy; 2023 Bruno Hledik, All right reserved</div>
+  
+
+
+
+
+  <!--<div class="Mineralogija-moj-hobi" style="margin-top: 40vw;">
     Dobrodošli u svijet minerala
   </div>
 
@@ -46,13 +100,13 @@
     </div>
   </div>
 
-  <!--<div class="SetSlika">
+  <div class="SetSlika">
     <img class="Slika1" src="Slike/Piroluzit.jpg">
     <img class="Slika2" src="Slike/Krizopras.jpg">
     <img class="Slika3" src="Slike/Pirit_druza.jpg">
     <img class="Slika4" src="Slike/Purpurit.jpg">
     <img class="Slika5" src="Slike/Ahat_ruža.jpg">
-  </div>-->
+  </div>
 
 
 
@@ -72,7 +126,7 @@
       pronaći ćete slike, imena i formule minerala, klikom na neki od minerala otvoriti će se stranica o tom mineralu sa svim detaljima.
       Gumb "Galerija" dovodi Vas na listu minerala, odabirom minerala otvaraju se sve slike iste vrste minerala.
     </p>
-  </div>
-
+  </div>-->
+  
 </body>
 </html>
