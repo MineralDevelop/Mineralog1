@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
+
 *{box-sizing: border-box; -webkit-box-sizing: border-box; }
 html, body { height: 100%; }
 body { margin: 0; font: 16px/1.3 sans-serif; }
@@ -171,4 +173,60 @@ http://stackoverflow.com/a/34696029/383904
   position: relative;
   font-size: 0.8vw;
   top: 0.6vw;
+}
+
+.NaslovČlanka{
+	display: flex;
+	font-family: 'roboto slab';
+	font-weight: bold;
+	font-size: 1.2vw;
+	justify-content: center;
+	padding-top: 0.5vw;
+	vertical-align: middle;
+}
+
+.TekstČlanka{
+	display: flex;
+	font-family: 'roboto slab';
+	font-size: 0.9vw;
+	padding: 0.8vw;
+	justify-content: center;
+}
+
+.Slikica{
+	height: 100%;
+	width: 100%;
+	object-fit: cover;
+	object-position: center;
+}
+
+.Okvir{
+	height: 15vw;
+	width: 100%;
+	display: flex;
+}
+
+.Autor222{
+	font-family: 'roboto slab';
+	display: flex;
+	padding: 0.5vw;
+	font-size: 0.9vw;
+	justify-content: space-between;
+}
+
+.AutorIme{
+	font-family: 'roboto slab';
+	font-size: 0.9vw;
+}
+
+.Datum{
+	font-family: 'roboto slab';
+	font-size: 0.9vw;
+}
+
+.pGraf{
+	flex: 1;
+	text-align: center;
+	font-family: 'roboto slab';
+	font-size: 1.1vw;
 }
