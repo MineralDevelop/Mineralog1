@@ -5,12 +5,15 @@
   <link rel="stylesheet" href="css/blog.css">
   <link rel="stylesheet" href="css/NeonskiGumbic.css">
   <link rel="stylesheet" href="css/Slider.css">
-  <link rel="stylesheet" href="bootstrap-5.3.2-dist/css/bootstrap.css">
+  <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
   <title>Mineralogija</title>
   <style>
     @media (min-width: 1200px) {
       .Responzivni-Font {
         font-size: 1rem;
+      }
+      .RespTxt{
+        text-align: justify;
       }
     }
     
@@ -18,30 +21,32 @@
       .Responzivni-Font {
         font-size: 1.5rem;
       }
+      .RespTxt{
+        text-align: center;
+      }
     }
   </style>
 </head>
-<body>
+<body style="background-color: rgb(245, 245, 245);">
 
   <!-- ZAGLAVLJE -->
 
   <div class="Zaglavlje" style="background-color: rgb(51, 51, 51);">
 
     <div class="Lijevo1" style="background-color: rgb(51, 51, 51); margin-left: 2vw;">
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/index.html"> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>Mineralogija.hr </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/index.html"> <span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>Mineralogija.hr </a>
     </div>
 
     <div class="Desno1" style="background-color: rgb(51, 51, 51)">
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/PSEtest.html" style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> PSE </a>
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/Minerali.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Minerali </a>
-      <a class="Neon" href="http://mineraldevelop.github.io/Mineralog1/Galerija.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Galerija </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/PSEtest.html" style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> PSE </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/Minerali.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Minerali </a>
+      <a class="Neon" href="http://127.0.0.1:5500/Mineralog1/Galerija.html"style="margin: 0;"><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span> Galerija </a>
     </div>
 
   </div>
 
   <!-- Blog -->
 
-  <!--<div class="NaslovAnimirani">Dobrodošli u svijet minerala</div>-->
 
   <div class="CSSgal">
 
@@ -53,19 +58,19 @@
   
     <div class="slider">
       <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS">Aragonit - CaCO<sub class="SubSet">3</sub></div>
+        <div class="OPIS" style="display: flex; padding: 0.5rem; justify-content: start; align-items: end; height: 100%;">Aragonit - CaCO<sub class="SubSet">3</sub></div>
         <img style="height: 100%; width: 100%; object-fit: cover;" src="/Mineralog1/Slike/ARA1.jpg" alt="">
       </div>
       <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS">Ahat - SiO<sub class="SubSet">2</sub></div>
+        <div class="OPIS" style="display: flex; padding: 0.5rem; justify-content: start; align-items: end; height: 100%;">Ahat - SiO<sub class="SubSet">2</sub></div>
         <img style="height: 100%; width: 100%; object-fit: cover;" src="/Mineralog1/Slike/Ahat_ruža.jpg" alt="">
       </div>
       <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS">Vanadinit - Pb<sub class="SubSet">5</sub>(VO<sub class="SubSet">4</sub>)<sub class="SubSet">3</sub>Cl</div>
+        <div class="OPIS" style="display: flex; padding: 0.5rem; justify-content: start; align-items: end; height: 100%;">Vanadinit - Pb<sub class="SubSet">5</sub>(VO<sub class="SubSet">4</sub>)<sub class="SubSet">3</sub>Cl</div>
         <img style="height: 100%; width: 100%; object-fit: cover;" src="/Mineralog1/Slike/IMGimp.JPG" alt="">
       </div>
       <div style="background:rgb(51, 51, 51);">
-        <div class="OPIS">Fluorit - CaF<sub class="SubSet">2</sub></div>
+        <div class="OPIS" style="display: flex; padding: 0.5rem; justify-content: start; align-items: end; height: 100%;">Fluorit - CaF<sub class="SubSet">2</sub></div>
         <img style="height: 100%; width: 100%; object-fit: cover;" src="/Mineralog1/Slike/FLU1.jpg" alt="">
       </div>
     </div>
@@ -86,7 +91,7 @@
   
   </div>
 
-  <p style="font-size: 3rem; margin: 1rem;">TESTIRANJE DIZAJNA U TOKU &DownArrow;</p>
+  <div style="display: flex; justify-content: center; align-items: center;"><p style="font-size: 3rem; align-items: center; margin: 1rem;">Novosti</p></div>
 
   <div class="container-fluid text-center">
     <div class="row justify-content-around">
@@ -95,10 +100,10 @@
         
         <div>
           <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/kyw2.jpg"></div>
-          <div class="col"><p style="font-size: 1.4rem; font-weight: bold; font-family: 'roboto slab'; margin-top: 0.5rem;">Top 5 najrijeđih minerala na Zemlji</p></div>
+          <div class="col"><p style="font-size: 1.4rem; font-weight: bold; font-family: 'roboto slab'; margin: 0; margin-top: 0.5rem;">Top 5 najrijeđih minerala na Zemlji</p></div>
         </div>
 
-        <div class="row align-self-center Responzivni-Font" style="text-align: justify; margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte koji su to najrijeđi minerali na Zemlji, gdje se pronalaze, koja su njihova fizička i kemijska svojstva i kolika je njihova cijena na tržištu. Upoznat ćete se sa definicijom minerala i uvijetima koji mineral čine rijetkim.</div>
+        <div class="row align-self-center Responzivni-Font RespTxt" style=" margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte koji su to najrijeđi minerali na Zemlji, gdje se pronalaze, koja su njihova fizička i kemijska svojstva i kolika je njihova cijena na tržištu. Upoznat ćete se sa definicijom minerala i uvijetima koji mineral čine rijetkim.</div>
         <div style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="font-size: 0.8rem; width: 100%; display: flex;">Autor: Bruno Hledik</div><div style="font-size: 0.8rem;">30.9.2023.</div></div>
         
       </div>
@@ -109,10 +114,10 @@
         
         <div>
           <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/tan3.jpeg"></div>
-          <div class="col"><p style="margin-top: 0.5rem; font-size: 1.4rem; font-weight: bold; font-family: 'roboto slab';">Tanzanit: mineral sa jednim nalazištem, Tanzanijom</p></div>
+          <div class="col"><p style="margin: 0; margin-top: 0.5rem; font-size: 1.4rem; font-weight: bold; font-family: 'roboto slab';">Tanzanit: mineral sa jednim nalazištem, Tanzanijom</p></div>
         </div>
 
-        <div class="row align-self-center Responzivni-Font" style="text-align: justify; margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o tanzanitu, koja su njegova fizička i kemijska svojstva i kolika je tržišna cijena. Upoznat ćete se sa identifikacijom tanzanita.</div>
+        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o tanzanitu, koja su njegova fizička i kemijska svojstva i kolika je tržišna cijena. Upoznat ćete se sa identifikacijom tanzanita.</div>
         <div style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="font-size: 0.8rem; width: 100%; display: flex;">Autor: Bruno Hledik</div><div style="font-size: 0.8rem;">30.9.2023.</div></div>
         
       </div>
@@ -123,10 +128,10 @@
         
         <div>
           <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/Cha3.jpg"></div>
-          <div class="col"><p style="margin-top: 0.5rem; font-size: 1.4rem;  font-weight: bold; font-family: 'roboto slab';">Top 5 najotrovnijih minerala na Zemlji</p></div>
+          <div class="col"><p style="margin: 0; margin-top: 0.5rem; font-size: 1.4rem;  font-weight: bold; font-family: 'roboto slab';">Top 5 najotrovnijih minerala na Zemlji</p></div>
         </div>
 
-        <div class="row align-self-center Responzivni-Font" style="text-align: justify; margin: 1rem; font-family: 'roboto slab';">U ovom članku saznajte koji su to najotrovniji minerali na Zemlji, gdje se pronalaze, koja su njihova fizička i kemijska svojstva i kolika je njihova cijena na tržištu. Upoznat ćete se sa definicijom minerala i uvijetima koji mineral čine otrovnim.</div>
+        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem; font-family: 'roboto slab';">U ovom članku saznajte koji su to najotrovniji minerali na Zemlji, gdje se pronalaze, koja su njihova fizička i kemijska svojstva i kolika je njihova cijena na tržištu. Upoznat ćete se sa definicijom minerala i uvijetima koji mineral čine otrovnim.</div>
         <div style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="font-size: 0.8rem; width: 100%; display: flex;">Autor: Bruno Hledik</div><div style="font-size: 0.8rem;">30.9.2023.</div></div>
         
       </div>
@@ -137,10 +142,10 @@
         
         <div>
           <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/eme2.jpg"></div>
-          <div class="col"><p style="margin-top: 0.5rem; font-size: 1.4rem;  font-weight: bold; font-family: 'roboto slab';">Smaragd: mineral iz rudnika Muzo, Kolumbija</p></div>
+          <div class="col"><p style="margin: 0; margin-top: 0.5rem; font-size: 1.4rem;  font-weight: bold; font-family: 'roboto slab';">Smaragd: mineral iz rudnika Muzo, Kolumbija</p></div>
         </div>
 
-        <div class="row align-self-center Responzivni-Font" style="text-align: justify; margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o mineralu smnaragdu, gdje se pronalazi, koja su njegova fizička i kemijska svojstva i kolika je njegova tržišna cijena. Upoznat ćete se sa identifikacijom minerala smaragda i uvijetima koji mineral čine posebnim.</div>
+        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o mineralu smnaragdu, gdje se pronalazi, koja su njegova fizička i kemijska svojstva i kolika je njegova tržišna cijena. Upoznat ćete se sa identifikacijom minerala smaragda i uvijetima koji mineral čine posebnim.</div>
         <div style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="font-size: 0.8rem; width: 100%; display: flex;">Autor: Bruno Hledik</div><div style="font-size: 0.8rem;">30.9.2023.</div></div>
       
       </div>
@@ -151,10 +156,10 @@
         
         <div>
           <div><img style="height: 15rem; width: 100%; object-fit: cover; object-position: center;" class="img-fluid" src="Slike/pyr.webp"></div>
-          <div class="col"><p style="margin-top: 0.5rem; font-size: 1.4rem; font-weight: bold; font-family: 'roboto slab';">Pirit: mineral iz rudnika Victoria, Španjolska</p></div>
+          <div class="col"><p style="margin: 0; margin-top: 0.5rem; font-size: 1.4rem; font-weight: bold; font-family: 'roboto slab';">Pirit: mineral iz rudnika Victoria, Španjolska</p></div>
         </div>
 
-        <div class="row align-self-center Responzivni-Font" style="text-align: justify; margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o mineralu piritu i njegovom najkavlitetnijem nalazištu, rudniku Viktorija. Upoznat ćete se sa definicijom minerala pirita i činjenicama koji mineral čine posebnim.</div>
+        <div class="row align-self-center Responzivni-Font RespTxt" style="margin: 1rem;  font-family: 'roboto slab';">U ovom članku saznajte o mineralu piritu i njegovom najkavlitetnijem nalazištu, rudniku Viktorija. Upoznat ćete se sa definicijom minerala pirita i činjenicama koji mineral čine posebnim.</div>
         <div style=" margin: 0.5rem; display: flex; flex-direction: row; align-items: end; height: fit-content;"><div style="font-size: 0.8rem; width: 100%; display: flex;">Autor: Bruno Hledik</div><div style="font-size: 0.8rem;">30.9.2023.</div></div>
           
       </div>
