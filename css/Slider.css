@@ -12,7 +12,7 @@ http://stackoverflow.com/a/34696029/383904
 .CSSgal {
 	position: relative;
 	overflow: hidden;
-	height: 38.5vw; /* Or set a fixed height */
+	height: 80vh; /* Or set a fixed height */
   border-bottom: solid;
   border-width: 0.2vw;
   border-color: black;
