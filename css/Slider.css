@@ -265,15 +265,15 @@ http://stackoverflow.com/a/34696029/383904
 		line-height: 2.2vh;
 	}
 	.OPIS{
-		font-size: 0.7rem;
+		font-size: 1.3vh;
 	}
 	.SupSet{
-		font-size: 1.2vh;
-		top: -0.6rem;
+		font-size: 1vh;
+		top: -1.3vh;
 	}
 	.SubSet{
-		font-size: 1.2vh;	
-		bottom: 0.3rem;
+		font-size: 1vh;	
+		bottom: 0.7vh;
 	}
 	.CSSgal .bullets {
 		margin-bottom: -0.5vh;
