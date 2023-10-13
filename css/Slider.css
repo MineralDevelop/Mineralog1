@@ -255,8 +255,8 @@ http://stackoverflow.com/a/34696029/383904
 		height: 50vh;
 	}
 	.CSSgal .bullets > a {
-		width: 1.5vh;
-		height: 1.5vh;
+		width: 1vh;
+		height: 1vh;
 	}
 	.CSSgal .prevNext a {
 		width: 2.5vh;
@@ -265,10 +265,15 @@ http://stackoverflow.com/a/34696029/383904
 		line-height: 2.2vh;
 	}
 	.OPIS{
-		font-size: 1.5vh;
+		font-size: 0.7rem;
+	}
+	.SupSet{
+		font-size: 1.2vh;
+		top: -0.6rem;
 	}
 	.SubSet{
-		font-size: 1.2vh;
+		font-size: 1.2vh;	
+		bottom: 0.3rem;
 	}
 	.CSSgal .bullets {
 		margin-bottom: -0.5vh;
