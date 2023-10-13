@@ -8,8 +8,6 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
 http://stackoverflow.com/a/34696029/383904
 */
-
-
 .CSSgal {
 	position: relative;
 	overflow: hidden;
@@ -19,11 +17,9 @@ http://stackoverflow.com/a/34696029/383904
   border-color: black;
 }
 
-@media (max-width: 1399px) {
-	.CSSgal{
-		height: 50vh;
-	}
-}
+
+
+
 
 /* SLIDER */
 
@@ -64,11 +60,11 @@ http://stackoverflow.com/a/34696029/383904
 .CSSgal .prevNext a {
 	background: rgba(0, 0, 0, 1);
 	position: absolute;
-	width:       1.5vw;
-	height:      1.5vw;
-	line-height: 1.4vw;
+	width:       1.5rem;
+	height:      1.5rem;
+	line-height: 1.5rem;
   color: white;
-  font-size: 1.5vw;
+  font-size: 1.3rem;
 	text-align: center;
 	opacity: 0.7;
 	-webkit-transition: 0.3s;
@@ -97,8 +93,8 @@ http://stackoverflow.com/a/34696029/383904
 }
 .CSSgal .bullets > a {
 	display: inline-block;
-	width:       0.7vw;
-	height:      0.7vw;
+	width:      10px;
+	height:     10px;
 	text-decoration: none;
 	text-align: center;
 	background: rgba(70, 70, 70, 1);
@@ -252,4 +248,30 @@ http://stackoverflow.com/a/34696029/383904
 	text-align: center;
 	font-family: 'roboto slab';
 	font-size: 1.1vw;
+}
+
+@media (max-width: 1399px) {
+	.CSSgal{
+		height: 50vh;
+	}
+	.CSSgal .bullets > a {
+		width: 1.5vh;
+		height: 1.5vh;
+	}
+	.CSSgal .prevNext a {
+		width: 2.5vh;
+		height: 2.5vh;
+		font-size: 2vh;
+		line-height: 2.2vh;
+	}
+	.OPIS{
+		font-size: 1.5vh;
+	}
+	.SubSet{
+		font-size: 1.2vh;
+	}
+	.CSSgal .bullets {
+		margin-bottom: -0.5vh;
+		padding: 0 0;
+	}
 }
