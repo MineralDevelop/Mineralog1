@@ -255,8 +255,8 @@ http://stackoverflow.com/a/34696029/383904
 		height: 50vh;
 	}
 	.CSSgal .bullets > a {
-		width: 1vh;
-		height: 1vh;
+		width: 0.7vh;
+		height: 0.7vh;
 	}
 	.CSSgal .prevNext a {
 		width: 2.5vh;
@@ -277,6 +277,5 @@ http://stackoverflow.com/a/34696029/383904
 	}
 	.CSSgal .bullets {
 		margin-bottom: -0.5vh;
-		padding: 0 0;
 	}
 }
