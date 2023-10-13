@@ -8,6 +8,11 @@ body { margin: 0; font: 16px/1.3 sans-serif; }
 PURE RESPONSIVE CSS3 SLIDESHOW GALLERY by Roko C. buljan
 http://stackoverflow.com/a/34696029/383904
 */
+@media (max-width: 1399px) {
+	.CSSgal{
+		height: 60vh;
+	}
+}
 
 .CSSgal {
 	position: relative;
