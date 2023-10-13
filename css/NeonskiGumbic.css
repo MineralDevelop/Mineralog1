@@ -173,14 +173,14 @@
 
 @media screen and (max-width: 1399px) {
   .Neon{
-    font-size: 1.4vh;
+    font-size: 1.2vh;
   }
 
   .Neon span:nth-child(1), .Neon span:nth-child(3), .Neon span:nth-child(5), .Neon span:nth-child(7){
-    height: 2px;
+    height: 2.5px;
   }
 
   .Neon span:nth-child(2), .Neon span:nth-child(4), .Neon span:nth-child(6), .Neon span:nth-child(8){
-    width: 2px;
+    width: 2.5px;
   }
 }
