@@ -259,10 +259,11 @@ http://stackoverflow.com/a/34696029/383904
 		height: 0.7vh;
 	}
 	.CSSgal .prevNext a {
-		width: 2.5vh;
-		height: 2.5vh;
+		width: 3vh;
+		height: 10vh;
 		font-size: 2vh;
-		line-height: 2.2vh;
+		line-height: 10vh;
+		border-radius: 0;
 	}
 	.OPIS{
 		font-size: 1.3vh;
