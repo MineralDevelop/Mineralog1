@@ -183,4 +183,8 @@
   .Neon span:nth-child(2), .Neon span:nth-child(4), .Neon span:nth-child(6), .Neon span:nth-child(8){
     width: 2.5px;
   }
+
+  .Neon{
+    padding: 0.8vh;
+  }
 }
