@@ -1497,11 +1497,9 @@ dec-none
 .OST{
   text-size-adjust: none;
   font-size: 0.8vw;
-  display: flex;
   justify-content: start;
   padding-left: 0.15vw;
   padding-right: 0.15vw;
-  width: 100%;
   justify-content: end;
   height: 10%;
 }
@@ -1525,6 +1523,7 @@ dec-none
   font-size: 0.8vw;
   padding-left: 0.15vw; 
   padding-right: 0.1vw;
+  
 }
 
 .OSTA{
@@ -1537,4 +1536,26 @@ dec-none
   width: 100%;
   justify-content: start;
   height: 10%;
+}
+
+.Table{
+  width: 80%;
+  border: solid 0.1vw;
+  border-collapse: collapse;
+}
+
+.Tabla2{
+  width: 15%;
+  border: solid 0.1vw;
+  border-collapse: collapse;
+}
+.Dvadeset{
+  width: 70%;
+  text-align: right;
+  padding-right: 0.5vw;
+}
+.Deset{
+  width: 30%;
+  text-align: left;
+  padding-left: 0.5vw;
 }
