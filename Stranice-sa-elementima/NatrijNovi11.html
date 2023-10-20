@@ -20,93 +20,11 @@
       }
       @media(max-width: 991px)
       {
-        .IzPSEMetal{
-          width: 35vw;
-          height: 35vw;
-        }
-        .AtomskiBroj{
-          font-size: 6vw;
-        }
-        .Simbol{
-          font-size: 10vw;
-        }
-        .Ime{
-          font-size: 6.4vw;
-        }
-        .Relativna{
-          font-size: 6vw;
-        }
-        .OPCEINFO{
-          height: fit-content;
-          width: fit-content;
-        }
-        .OST{
-          font-size: 2.3vw;
-        }
-        .Smb{
-          font-size: 2.3vw;
-        }
-        .OSTA{
-          font-size: 2.3vw;
-        }
-        .SmbA{
-          font-size: 2.3vw;
-        }
-        .Grupacija{
-          flex-direction: column;
-        }
-        .PSEOPCE{
-          width: 80vw;
-          justify-content: space-between;
-        }
-        .OPCENASLOV{
-          font-size: 2.3vw;
-        }
+
       }
       @media(max-width: 767px)
       {
-        .IzPSEMetal{
-          width: 35vw;
-          height: 35vw;
-        }
-        .AtomskiBroj{
-          font-size: 6vw;
-        }
-        .Simbol{
-          font-size: 10vw;
-        }
-        .Ime{
-          font-size: 6.4vw;
-        }
-        .Relativna{
-          font-size: 6vw;
-        }
-        .OPCEINFO{
-          height: fit-content;
-          width: fit-content;
-        }
-        .OST{
-          font-size: 2.3vw;
-        }
-        .Smb{
-          font-size: 2.3vw;
-        }
-        .OSTA{
-          font-size: 2.3vw;
-        }
-        .SmbA{
-          font-size: 2.3vw;
-        }
-        .Grupacija{
-          flex-direction: column;
-        }
-        .PSEOPCE{
-          width: 80vw;
-          justify-content: space-between;
-        }
-        .OPCENASLOV{
-          font-size: 2.3vw;
-        }
+
       }
       @media(max-width: 575px)
       {
@@ -132,12 +50,14 @@
         }
         .OST{
           font-size: 2.3vw;
+          border-top: solid 0.01vw;
         }
         .Smb{
           font-size: 2.3vw;
         }
         .OSTA{
           font-size: 2.3vw;
+          border-top: solid 0.01vw;
         }
         .SmbA{
           font-size: 2.3vw;
@@ -146,13 +66,45 @@
           flex-direction: column;
         }
         .PSEOPCE{
-          width: 80vw;
+          width: 90vw;
           justify-content: space-between;
         }
         .OPCENASLOV{
           font-size: 2.3vw;
         }
+        .Table{
+          width: 90vw;
+          margin-top: 1vh;
+          font-family: 'Rubik';
+        }
+        .SupSet2{
+          font-size: 1.2vw;
+        }
+        .Tabla2{
+          width: 40%;
+          font-family: 'Rubik';
+        }
       }
+
+
+      th,td {
+        font-size: 2vw;
+        border-top: solid 0.1vw;
+        border-right: solid 0.1vw;
+        border-left: solid 0.1vw;
+        text-align: center;
+        width: 16.6%;
+      }
+      td{
+        padding: 0.5vw 0;
+      }
+
+      .Nema{
+        border-right: 0;
+        border-left: 0;
+      }
+
+      
     </style>
   </head>
   <body>
@@ -178,7 +130,19 @@
               <div class="Relativna">22,99</div>
             </div>
 
-            <div class="OPCEINFO">
+            <table class="Tabla2">
+              <tr> <td class="Dvadeset">Simbol</td><td class="Deset">Na</td> </tr>
+              <tr> <td class="Dvadeset">Broj protona</td><td class="Deset">11</td> </tr>
+              <tr> <td class="Dvadeset">Broj elektrona</td><td class="Deset">11</td> </tr>
+              <tr> <td class="Dvadeset">Broj neutrona</td><td class="Deset">12</td> </tr>
+              <tr> <td class="Dvadeset">Agregatno stanje</td><td class="Deset">Kruto</td> </tr>
+              <tr> <td class="Dvadeset">Talište</td><td class="Deset">98°C</td> </tr>
+              <tr> <td class="Dvadeset">Vrelište</td><td class="Deset">883°C</td> </tr>
+              <tr> <td class="Dvadeset">Radioaktivan</td><td class="Deset">Ne</td> </tr>
+              <tr> <td class="Dvadeset">Umjetno dobiven</td><td class="Deset">Ne</td> </tr>
+              <tr> <td class="Dvadeset">Relativna atomska masa</td><td class="Deset">22,98976</td> </tr>
+            </table>
+            <!--<div class="OPCEINFO">
               <div class="OPCENASLOV">
                 Opće informacije
               </div>
@@ -208,20 +172,47 @@
                   <div class="OSTA">22,98976</div>
                 </div>
               </div>
-            </div>
+            </div>-->
           </div>
 
           
 
+
+          <table class="Table" >
+            <tr>
+              <th>Izotop</th>
+              <th>Vrijeme poluraspada</th>
+              <th>Vrsta poluraspada</th>
+              <th>Produkt poluraspada</th>
+              <th>U prirodi (%)</th>
+              <th>Radioaktivan</th>
+            </tr>
+            <tr>
+              <td><sup class="SupSet2">22</sup>Na</td>
+              <td>2602 god</td>
+              <td>&beta;+/&epsilon;-/&beta;+</td>
+              <td><sup class="SupSet2">22</sup>Ne</td>
+              <td>U tragovima</td>
+              <td>Da</td>
+            </tr>
+            <tr>
+              <td><sup class="SupSet2">23</sup>Na</td>
+              <td class="Nema"></td>
+              <td class="Nema">Stabilan</td>
+              <td class="Nema"></td>
+              <td>100%</td>
+              <td>Ne</td>
+            </tr>
+          </table>
           
-          <div class="Tablica">
+          <!--<div class="Tablica">
             <div class="NaslovTablica">Sastav izotopne smjese</div>
             <div class="PodatciPodnaslov"><div class="Podnaslov1">Izotop</div><div class="Podnaslov2"><div>Vrijeme</div><div>poluraspada</div></div><div class="Podnaslov3"><div>Vrsta</div><div>poluraspada</div></div><div class="Podnaslov4"><div>Produkt</div><div>poluraspada</div></div><div class="Podnaslov5">U prirodi (%)</div><div class="Podnaslov6">Radioaktivan</div></div>
             <div class="UžaTablica">
               <div class="Redak"><div class="Podatak1"><div><sup>22</sup>Na</div></div><div class="Podatak2"><div>2602 god</div></div><div class="Podatak3"><b style="font-size: 1.1vw; margin-top: -0.1vw;">&beta;+/&epsilon;-/&beta;+</b></div><div class="Podatak4"><div><sup>22</sup>Ne</div></div><div class="Podatak5">U tragovima</div><div class="Podatak6">Da</div></div>
               <div class="Redak" style="border: none;"><div class="Podatak1"><div><sup>23</sup>Na</div></div><div class="StabilanPodatak">Stabilan</div><div class="Podatak5">100%</div><div class="Podatak6">Ne</div></div>
             </div>
-          </div>
+          </div>-->
           
         </div>
       </div>
