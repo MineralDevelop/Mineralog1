@@ -1559,3 +1559,8 @@ dec-none
   text-align: left;
   padding-left: 0.5vw;
 }
+
+.tstNema{
+  border-right: 0;
+  border-left: 0;
+}
