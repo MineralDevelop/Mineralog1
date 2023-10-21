@@ -2,13 +2,105 @@
 <html>
   <head>
     <title>Elementi-Natrij</title>
-    <link rel="stylesheet" href="/Mineralog1/css/ElementiNovi11.css">
+    <link rel="stylesheet" href="/css/ElementiNovi11.css">
     <link >
 
     <style>
       @media(min-width: 1200px)
       {
+        
+        .Grupacija{
+          flex-direction: row;
+          width: 90vw;
+        }
 
+        .IzPSEMetal{
+          width: 15vw;
+          height: 15vw;
+          border: solid 0.2vw;
+        }
+        .AtomskiBroj{
+          font-size: 2.6vw;
+        }
+        .Simbol{
+          font-size: 6.3vw;
+          
+        }
+        .Ime{
+          font-size: 2.3vw;
+        }
+        .Relativna{
+          font-size: 2.6vw;
+        }
+        
+        .OPCEINFO{
+          height: fit-content;
+          width: fit-content;
+          
+        }
+        .OST{
+          font-size: 1.3vw;
+          border-top: solid 0.01vw;
+        }
+        .Smb{
+          font-size: 1.3vw;
+        }
+        .OSTA{
+          font-size: 1.3vw;
+          border-top: solid 0.01vw;
+        }
+        .SmbA{
+          font-size: 1.3vw;
+        }
+        .PSEOPCE{
+          width: 40vw;
+          justify-content: space-between;
+          
+        }
+        .OPCENASLOV{
+          font-size: 1.3vw;
+        }
+        .Table{
+          width: 40vw;
+          margin-top: 1vh;
+          font-family: 'Rubik';
+          border: solid 0.2vw;
+          
+        }
+        .SupSet2{
+          font-size: 0.7vw;
+        }
+        .SubSet2{
+          font-size: 0.7vw;
+        }
+        .Tabla2{
+          width: 50%;
+          font-family: 'Rubik';
+          border: solid 0.2vw;
+          
+        }
+        .Dvadeset{
+          font-size: 1vw;
+          padding: 0.1vw 0.2vw;
+        }
+        .Deset{
+          font-size: 1vw;
+          padding: 0.1vw 0.2vw;
+          
+        }
+        .tst{
+          font-size: 1vw;
+        }
+        .tstNema{
+          font-size: 1vw;
+        }
+        .DD{
+          
+          height: 1vw;
+        }
+        .Pgraf{
+          font-size: 1vw;
+        }
       }
       @media(max-width: 1399px)
       {
@@ -89,7 +181,8 @@
         }
         .Pgraf{
           font-size: 2.2vw;
-          line-height: 3vw;
+          line-height: 3.2vw;
+          margin-top: 2vw;
         }
         .Dvadeset{
           font-size: 2vw;
@@ -102,6 +195,23 @@
         }
         .tstNema{
           font-size: 2vw;
+        }
+        .OTubi, .OHenryju{
+          font-size: 2vw;
+          width: max-content;
+        }
+        .Sett{
+          flex-direction: column;
+        }
+        .left, .right{
+          width: 100%;
+        }
+        .right{
+          justify-content: right;
+          margin: 0;
+        }
+        .HenryC, .VodikTuba{
+          height: 35vw;
         }
       }
       @media(max-width: 767px)
@@ -176,6 +286,7 @@
         .Pgraf{
           font-size: 2.2vw;
           line-height: 3vw;
+          margin-top: 2vw;
         }
         .Dvadeset{
           font-size: 2vw;
@@ -262,6 +373,7 @@
         .Pgraf{
           font-size: 2.2vw;
           line-height: 3vw;
+          margin-top: 2vw;
         }
         .Dvadeset{
           font-size: 2vw;
@@ -279,7 +391,7 @@
 
 
       th,td {
-        font-size: 2vw;
+        font-size: 1vw;
         border-top: solid 0.1vw;
         border-right: solid 0.1vw;
         border-left: solid 0.1vw;
@@ -322,16 +434,16 @@
             </div>
 
             <table class="Tabla2">
-              <tr> <td class="Dvadeset">Simbol</td><td class="Deset">Na</td> </tr>
-              <tr> <td class="Dvadeset">Broj protona</td><td class="Deset">11</td> </tr>
-              <tr> <td class="Dvadeset">Broj elektrona</td><td class="Deset">11</td> </tr>
-              <tr> <td class="Dvadeset">Broj neutrona</td><td class="Deset">12</td> </tr>
-              <tr> <td class="Dvadeset">Agregatno stanje</td><td class="Deset">Kruto</td> </tr>
-              <tr> <td class="Dvadeset">Talište</td><td class="Deset">98°C</td> </tr>
-              <tr> <td class="Dvadeset">Vrelište</td><td class="Deset">883°C</td> </tr>
-              <tr> <td class="Dvadeset">Radioaktivan</td><td class="Deset">Ne</td> </tr>
-              <tr> <td class="Dvadeset">Umjetno dobiven</td><td class="Deset">Ne</td> </tr>
-              <tr> <td class="Dvadeset">Relativna atomska masa</td><td class="Deset">22,98976</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Simbol</td><td class="Deset">Na</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Broj protona</td><td class="Deset">11</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Broj elektrona</td><td class="Deset">11</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Broj neutrona</td><td class="Deset">12</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Agregatno stanje</td><td class="Deset">Kruto</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Talište</td><td class="Deset">98°C</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Vrelište</td><td class="Deset">883°C</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Radioaktivan</td><td class="Deset">Ne</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Umjetno dobiven</td><td class="Deset">Ne</td> </tr>
+              <tr class="DD"> <td class="Dvadeset">Relativna atomska masa</td><td class="Deset">22,98976</td> </tr>
             </table>
            
           </div>
@@ -386,12 +498,12 @@
       <div class="VanjskaGrupacija">
         <div class="Sett">
           <div class="left">
-            <img class="HenryC" src="/Mineralog1/Slike/Sir Davy Humphry.webp">
+            <img class="HenryC" src="/Slike/Sir Davy Humphry.webp">
             <div class="OHenryju">Engleski kemičar i fizičar Humphry Davy (1778. - 1829.) par dana poslije izoliranja kalija, izolirao je natrij elektrolizom osušenog natrijevog hidroksida.</div>
           </div>
           <div class="right">
             <div class="OTubi">Zbog jake reaktivnosti s kisikom (oksidacije) čak niti u mineralnom ulju ne može ne oksidirati, ovaj primjer rastopljenog natrija u ampuli dobro je rješenje barem za atraktivni izložbeni primjerak.</div>
-            <img class="VodikTuba" src="/Mineralog1/Slike/Natrij.jpg">
+            <img class="VodikTuba" src="/Slike/Natrij.jpg">
           </div>
         </div>
       </div>
