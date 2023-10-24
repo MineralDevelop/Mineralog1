@@ -738,6 +738,11 @@ body{
   font-size: 1vw;
   height: 14vw;
   align-items: center;
+
+  border: solid;
+  border-width: 0.15vw;
+  width: 90vw;
+  height: 30vw;
 }
 
 .BrojElek{
@@ -1563,4 +1568,53 @@ dec-none
 .tstNema{
   border-right: 0;
   border-left: 0;
+}
+
+.DDDD{
+display: flex;
+flex-direction: column;
+align-items: center;
+height: 4vw;
+}
+
+.EKONFKONF{
+  display: flex;
+  padding-bottom: 0.1vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  border: solid;
+  border-width: 0.1vw;
+  border-top: none;
+  width: fit-content;
+  font-size: 1vw;
+  justify-content: center;
+}
+
+.PadS{
+  padding-left: 0.3vw;
+}
+
+.PadP{
+  margin-left: 1.5vw;
+  margin-bottom: 0.1vw;
+}
+
+.PadD{
+  margin-left: 2.3vw;
+}
+
+.PadF{
+  margin-left: 3.6vw;
+}
+
+.DDD{
+  display: flex;
+  flex-direction: column;
+  margin-top: 1vw;
+}
+
+.EKF{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
 }
