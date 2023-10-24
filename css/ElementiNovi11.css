@@ -1618,3 +1618,20 @@ height: 4vw;
   justify-content: space-between;
   width: 100%;
 }
+
+.TestRepo03{
+  margin-right: 0.3vw;
+}
+
+.NajvažnijiSpojeviNaslov{
+  display: flex;
+  padding-bottom: 0.1vw;
+  padding-right: 1vw;
+  padding-left: 1vw;
+  border: solid;
+  border-width: 0.1vw;
+  border-top: none;
+  width: fit-content;
+  font-size: 1vw;
+  justify-content: center;
+}
