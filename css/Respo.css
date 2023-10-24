@@ -309,27 +309,33 @@
         }
         .TekstPodnaslova, .StrManjaPodskup{
           font-size: 2vw;
+              text-size-adjust: none;
         }
         .StrManjaPodskup{
           padding-top: 0.4vw;
+              text-size-adjust: none;
         }
         .TekstKoristi{
           font-size: 2vw;
           line-height: 2.7vw;
           padding-bottom: 0.7vw;
+              text-size-adjust: none;
         }
         .StrKorist{
           font-size: 2vw;
           padding-top: 0.1vw;
+              text-size-adjust: none;
         }
         .StrNapraviti{
           font-size: 2vw;
           padding-top: 0.5vw;
+              text-size-adjust: none;
         }
         .TekstSpojeva{
           font-size: 2vw;
           line-height: 2.7vw;
           padding-bottom: 0.7vw;
+              text-size-adjust: none;
         }
       }
 
