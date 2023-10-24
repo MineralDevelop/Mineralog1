@@ -107,17 +107,20 @@
         
         .SPDFNASLOV{
           margin-top: 1rem;
-          font-size: 1rem;
+          font-size: 2.5vw;
+          
         }
         .DDDDD{
-          font-size: 2vw;
+          font-size: 2.5vw;
         }
         .DDDD{
-          font-size: 2vw;
+          font-size: 2.5vw;
           margin-bottom: 2vw;
         }
         .DDD{
           margin-bottom: 3vw;
+          height: 10vw;
+          justify-content: space-between;
         }
         .IzPSEMetal{
           width: 35vw;
@@ -230,55 +233,54 @@
           align-items: center;
         }
         .EKONFKONF{
-            font-size: 2vw;
-        }
-        .ElekKonf{
-            font-size: 2vw;
+            font-size: 3vw;
+            border-width: 0.3vw;
         }
         .Skockica{
-            height: 2vw;
-            width: 2vw;
+            height: 2.5vw;
+            width: 2.5vw;
         }
         .Pkockica{
-            height: 2vw;
+            height: 2.5vw;
         }
         .Dkockica{
-            height: 2vw;
+            height: 2.5vw;
         }
         .Fkockica{
-            height: 2vw;
+            height: 2.5vw;
         }
         .Test{
-            margin-right: -1vw;
+            margin-right: -1.4vw;
         }
         .Test2{
-            margin-right: -0.55vw;
+            margin-right: -0.5vw;
         }
         .KucicaPredsetP{
             margin-left: -0.5vw;
             margin-top: -0.45vw;
         }
         .Kucica{
-            width: 2vw;
+            width: 2.5vw;
         }
         .BrojElek{
-            margin-right: 0.7vw;
+            margin-right: 1vw;
         }
         .PadS{
             padding-left: 0.55vw;
             padding-top: 2vw;
         }
         .PadP{
-            padding-left: 1vw;
+            padding-left: 2vw;
         }
         .PadD{
-            padding-left: 2.5vw;
+            padding-left: 3.7vw;
         }
         .PadF{
-            padding-left: 3.6vw;
+            padding-left: 5.5vw;
         }
         .ElekKonf{
-          height: 50vw;
+          font-size: 2.5vw;
+          height: 60vw;
           justify-content: space-between;
           border: solid 0.5vw;
         }
