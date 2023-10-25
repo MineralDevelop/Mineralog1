@@ -1636,3 +1636,12 @@ height: 4vw;
   justify-content: center;
 }
 
+.TekstKoristiSF{
+  font-size: 1vw; 
+  font-family: 'roboto slab'; 
+  text-align: justify;
+  padding-right: 1vw; 
+  /*padding-top: 0.2vw; */
+  padding-left: 0.5vw; 
+  line-height: 1.5vw;
+}

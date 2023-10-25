@@ -328,6 +328,13 @@
           padding-bottom: 0.7vw;
               text-size-adjust: none;
         }
+        .TekstKoristiSF{
+          font-size: 2.2vw;
+          line-height: 2.7vw;
+          padding-bottom: 0.7vw;
+          flex-direction: column;
+              text-size-adjust: none;
+        }
         .StrKorist{
           font-size: 2.2vw;
           padding-top: 0.1vw;
