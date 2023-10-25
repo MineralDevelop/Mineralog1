@@ -337,12 +337,11 @@
         }
         .StrKorist{
           font-size: 2.2vw;
-          padding-top: 0.1vw;
               text-size-adjust: none;
         }
         .StrNapraviti{
           font-size: 2.2vw;
-          padding-top: 0.5vw;
+          padding-top: 0.3vw;
               text-size-adjust: none;
         }
         .TekstSpojeva{
@@ -359,6 +358,9 @@
           text-size-adjust: none;
           height: 3vw;
         }
+        .FormulaMinU-Novo{
+          font-size: 2vw;
+        }
         .ImeMin-Novo, .FormulaMin-Novo{
           font-size: 2.4vw;
           height: 4vw;
@@ -372,26 +374,25 @@
           height: 4vw;
         }
         .Nazad{
-          height: 5vw;
+          height: 7vw;
           display: flex;
           align-items: center;
         }
         .Gumb-Nazad{
-          font-size: 3vw;
+          font-size: 4vw;
         }
         .Zahvala{
-          height: 10vw;
+          height: 12vw;
         }
         .ZahvalaT{
           display: table-cell;
           text-align: center;
-          font-size: 2vw;
+          font-size: 2.2vw;
           color: black;
         }
         .Gumb-Element{
-          font-size: 2vw;
+          font-size: 2.2vw;
           text-decoration: none;
-          color: blue;
         }
       }
 
