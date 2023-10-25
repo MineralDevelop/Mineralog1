@@ -371,6 +371,28 @@
           font-size: 2.6vw;
           height: 4vw;
         }
+        .Nazad{
+          height: 5vw;
+          display: flex;
+          align-items: center;
+        }
+        .Gumb-Nazad{
+          font-size: 3vw;
+        }
+        .Zahvala{
+          height: 10vw;
+        }
+        .ZahvalaT{
+          display: table-cell;
+          text-align: center;
+          font-size: 2vw;
+          color: black;
+        }
+        .Gumb-Element{
+          font-size: 2vw;
+          text-decoration: none;
+          color: blue;
+        }
       }
 
 
