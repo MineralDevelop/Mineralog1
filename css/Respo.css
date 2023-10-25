@@ -104,7 +104,13 @@
       }
       @media(max-width: 991px)
       {
-        
+        .SpojSpoj{
+          align-items: start;
+        }
+        .TekstSpojeva{
+          display: flex;
+          flex-direction: column;
+        }
         .SPDFNASLOV{
           display: flex;
           margin-bottom: -3vw;
@@ -183,7 +189,7 @@
           font-size: 1.2vw;
         }
         .SubSet2{
-          font-size: 1.2vw;
+          font-size: 1.5vw;
         }
         .Tabla2{
           width: 40%;
@@ -305,11 +311,11 @@
           border-width: 0.5vw;
         }
         .LK{
-          font-size: 2.2vw;
+          font-size: 2.4vw;
                text-size-adjust: none;
         }
         .TekstPodnaslova, .StrManjaPodskup{
-          font-size: 2vw;
+          font-size: 2.2vw;
               text-size-adjust: none;
         }
         .StrManjaPodskup{
@@ -317,23 +323,23 @@
               text-size-adjust: none;
         }
         .TekstKoristi{
-          font-size: 2vw;
+          font-size: 2.2vw;
           line-height: 2.7vw;
           padding-bottom: 0.7vw;
               text-size-adjust: none;
         }
         .StrKorist{
-          font-size: 2vw;
+          font-size: 2.2vw;
           padding-top: 0.1vw;
               text-size-adjust: none;
         }
         .StrNapraviti{
-          font-size: 2vw;
+          font-size: 2.2vw;
           padding-top: 0.5vw;
               text-size-adjust: none;
         }
         .TekstSpojeva{
-          font-size: 2vw;
+          font-size: 2.2vw;
           line-height: 2.7vw;
           padding-bottom: 0.7vw;
               text-size-adjust: none;
