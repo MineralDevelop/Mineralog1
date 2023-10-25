@@ -351,6 +351,26 @@
           padding-bottom: 0.7vw;
               text-size-adjust: none;
         }
+        .Minerali-Novo{
+          width: 90vw;
+        }
+        .PostotakEleU-Novo, .FormulaMinU-Novo, .ImeMinU-Novo{
+          font-size: 2.2vw;
+          text-size-adjust: none;
+          height: 3vw;
+        }
+        .ImeMin-Novo, .FormulaMin-Novo{
+          font-size: 2.4vw;
+          height: 4vw;
+        }
+        .PostotakEle-Novo{
+          height: 4vw;
+          font-size: 1.6vw;
+        }
+        .Naslov-Novo{
+          font-size: 2.6vw;
+          height: 4vw;
+        }
       }
 
 
