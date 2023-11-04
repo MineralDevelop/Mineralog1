@@ -394,6 +394,30 @@
           font-size: 2.2vw;
           text-decoration: none;
         }
+        /*AHAT NOVI*/
+        .NaslovOtvaranje{
+          font-size: 5.5vw;
+        }
+        .GalSlika{
+          flex-direction: column;
+        }
+        .Slikica{
+          width: 100%;
+        }
+        .SetSlika2{
+          height: 40vw;
+        }
+        .SSlika{
+          height: 40vw;
+        }
+        .OOpisSlike{
+          height: 2.5vw;
+          font-size: 2vw;
+        }
+        .UUzSliku{
+          bottom: -30%;
+          font-size: 2vw;
+        }
       }
 
 
