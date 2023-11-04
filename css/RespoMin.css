@@ -152,30 +152,30 @@ td{
     text-size-adjust: none;
   }
   .NaslovOCemu{
-    font-size: 3vw;
+    font-size: 4vw;
     text-size-adjust: none;
   }
   .Tekstic{
-    font-size: 2vw;
+    font-size: 2.3vw;
     text-size-adjust: none;
   }
   .L1{
-    font-size: 2vw;
+    font-size: 2.3vw;
     text-size-adjust: none;
   }
   .red{
-    font-size: 2vw;
+    font-size: 2.3vw;
     text-size-adjust: none;
   }
   .upozorenje{
-    font-size: 1.8vw;
-    text-size-adjust: none;
-  }
-  .bold{
     font-size: 2vw;
     text-size-adjust: none;
   }
+  .bold{
+    font-size: 2.3vw;
+    text-size-adjust: none;
+  }
   .MARGINA{
-    margin-left: 2vw;
+    margin-left: 2.3vw;
   }
 }
