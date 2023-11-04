@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@10;200;300;400;500;550;700&display=swap');
+body{
+  background-color: rgb(245, 245, 245);
+}
+.SubSet2{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
+  top: 0.6vw;
+  font-weight: 600;
+  font-family: 'roboto slab';
+}
+.SupSet{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
+  bottom: 0;
+  font-weight: 600;
+  font-family: 'roboto slab';
+}
+table{
+  width: 12vw;
+}
+td{
+  width: 70%;
+  font-family: 'roboto slab';
+}
+.bold{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  margin-top: 0.2vw;
+  font-weight: 550;
+}
+.red{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  margin-top: 0.2vw;
+}
+.upozorenje{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  color: red;
+  font-weight: bold;
+}
+.L1{
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+}
+.text{
+  font-size: 1vw;
+  font-family: 'roboto slab';
+}
+.textzamape{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  font-size: 1vw;
+  font-family: 'roboto slab';
+}
+.boxmape{
+  width: 30%;
+}
+.Podnožje{
+  display: flex;
+  background-color: rgb(51, 51, 51);
+}
+.NaslovOtvaranje{
+  margin: 0;
+  padding: 0;
+  border-bottom: solid 0.15vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 3vw;
+}
+.Slikica{
+  position: relative;
+  width: 50%;
+  height: 30vw;
+  margin: 0;
+  padding: 0;
+}
+.SSlika{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+.OOpisSlike{
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.8vw;
+  height: 1.5vw;
+  background-color: black;
+  color: white;
+}
+.UUzSliku{
+  position: absolute;
+  bottom: 1%;
+  left: 50%;
+  transform: translate(-50%, -1%);
+  color: white;
+  font-size: 1vw;
+}
+.NaslovOCemu{
+  font-size: 2vw;
+  font-family: 'roboto slab';
+  font-weight: 700;
+}
+.Tekstic{
+  margin-top: 1vw;
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+}
+.MARGINA{
+  margin-left: 1vw;
+}
+@media(max-width: 991px){
+  /*AHAT NOVI*/
+  .NaslovOtvaranje{
+    font-size: 5.5vw;
+    text-size-adjust: none;
+  }
+  .GalSlika{
+    flex-direction: column;
+  }
+  .Slikica{
+    width: 100%;
+  }
+  .SetSlika2{
+    height: 40vw;
+  }
+  .SSlika{
+    height: 40vw;
+  }
+  .OOpisSlike{
+    height: 2.5vw;
+    font-size: 1.5vw;
+    text-size-adjust: none;
+  }
+  .UUzSliku{
+    bottom: -30%;
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .NaslovOCemu{
+    font-size: 3vw;
+    text-size-adjust: none;
+  }
+  .Tekstic{
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .L1{
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .red{
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .upozorenje{
+    font-size: 1.8vw;
+    text-size-adjust: none;
+  }
+  .bold{
+    font-size: 2vw;
+    text-size-adjust: none;
+  }
+  .MARGINA{
+    margin-left: 2vw;
+  }
+}
