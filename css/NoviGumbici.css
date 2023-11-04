@@ -228,3 +228,53 @@
   width: 25px;
   box-shadow: 0 0 20px 0 royalblue;
 }
+
+@media screen and (max-width: 1399px) {
+  .glowing-button3, .glowing-button3-Middle, .glowing-button3-Short{
+    font-size: 1.2vh;
+    padding: 0.55vw 1vw;
+  }
+
+  .glowing-button3-Middle::before,.glowing-button3-Middle::after{
+    width: 1.3vw;
+    height: 0.3vw;
+  }
+  .glowing-button3-Short::before,.glowing-button3-Short::after{
+    width: 0.5vw;
+    height: 0.3vw;
+  }
+  .glowing-button3::before,.glowing-button3::after{
+    width: 1.7vw;
+    height: 0.3vw;
+  }
+
+
+
+
+  .glowing-button3-Middle:hover::before{
+    left: calc(100% - 3vw);
+    width: 1.8vw;
+  }
+  .glowing-button3-Middle:hover::after{
+    right: calc(100% - 3vw);
+    width: 1.8vw;
+  }
+
+  .glowing-button3-Short:hover::before{
+    left: calc(100% - 2.8vw);
+    width: 1.5vw;
+  }
+  .glowing-button3-Short:hover::after{
+    right: calc(100% - 2.8vw);
+    width: 1.5vw;
+  }
+  
+  .glowing-button3:hover::before{
+    left: calc(100% - 4vw);
+    width: 2vw;
+  }
+  .glowing-button3:hover::after{
+    right: calc(100% - 4vw);
+    width: 2vw;
+  }
+}
