@@ -232,7 +232,7 @@
 @media screen and (max-width: 1399px) {
   .glowing-button3, .glowing-button3-Middle, .glowing-button3-Short{
     font-size: 1.2vh;
-    padding: 0.55vw 1vw;
+    padding: 0.8vw 1.2vw;
   }
 
   .glowing-button3-Middle::before,.glowing-button3-Middle::after{
