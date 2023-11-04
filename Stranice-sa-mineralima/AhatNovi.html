@@ -9,8 +9,7 @@
     <link rel="stylesheet" href="/Mineralog1/css/NeonskiGumbic.css">
     <link rel="stylesheet" href="/Mineralog1/css/Colorchart.css">
     <link rel="stylesheet" href="/Mineralog1/css/NoviGumbici.css">
-    
-
+    <link rel="stylesheet" href="/Mineralog1/css/Respo.css">
     <style>
         
         @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@10;200;300;400;500;550;700&display=swap');
@@ -84,6 +83,46 @@
           display: flex;
           background-color: rgb(51, 51, 51);
         }
+        .NaslovOtvaranje{
+          margin: 0;
+          padding: 0;
+          border-bottom: solid 0.15vw;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 3vw;
+        }
+        .Slikica{
+          position: relative;
+          width: 50%;
+          height: 30vw;
+          margin: 0;
+          padding: 0;
+        }
+        .SSlika{
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+          object-position: center;
+        }
+        .OOpisSlike{
+          width: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 0.8vw;
+          height: 1.5vw;
+          background-color: black;
+          color: white;
+        }
+        .UUzSliku{
+          position: absolute;
+          bottom: 1%;
+          left: 50%;
+          transform: translate(-50%, -1%);
+          color: white;
+          font-size: 1vw;
+        }
     </style>
   </head>
 
@@ -103,19 +142,39 @@
     
       </div>
 
-      <div class="NaslovOtvaranje" style="margin: 0; padding: 0; border-bottom: solid 0.15vw; display: flex; align-items: center; justify-content: center; font-size: 3vw;">Ahat</div>
+      <div class="NaslovOtvaranje">Ahat</div>
+
+
 
       <div class="GalSlika" style="display: flex; width: 100%; border-bottom: solid 0.15vw; pad: 0; margin: 0;">
-        <div style="position: relative; width: 25%; height: 30vw; margin: 0; padding: 0;"><img src="/Mineralog1/Slike/Plavi_ahat.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"><div style="position: absolute; bottom: 1%; left: 50%; transform: translate(-50%, -1%); color: white; font-size: 1vw;">Obojani ahat</div></div>
-        <div style="position: relative; width: 25%; height: 30vw; margin: 0; padding: 0;"><img src="/Mineralog1/Slike/Ahat_ruža.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"><div style="position: absolute; bottom: 1%; left: 50%; transform: translate(-50%, -1%); color: white; font-size: 1vw;">Ahat ruža</div></div>
-        <div style="position: relative; width: 25%; height: 30vw; margin: 0; padding: 0;"><img src="/Mineralog1/Slike/Vatreni_ahat.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"><div style="position: absolute; bottom: 1%; left: 50%; transform: translate(-50%, -1%); color: white; font-size: 1vw;">Vatreni ahat</div></div>
-        <div style="position: relative; width: 25%; height: 30vw; margin: 0; padding: 0;"><img src="/Mineralog1/Slike/Dendritski_ahat.jpg" alt="" style="width: 100%; height: 100%; object-fit: cover; object-position: center;"><div style="position: absolute; bottom: 1%; left: 50%; transform: translate(-50%, -1%); color: white; font-size: 1vw;">Dendritski ahat</div></div>
+        
+        <div class="SetSlika" style="display: flex; flex-direction: column;">
+          <div class="SetSlika2" style="display: flex;">
+            <div class="Slikica"><img src="/Mineralog1/Slike/Plavi_ahat.jpg" alt="" class="SSlika"><div class="UUzSliku">Obojani ahat</div></div>
+            <div class="Slikica"><img src="/Mineralog1/Slike/Ahat_ruža.jpg" alt="" class="SSlika"><div class="UUzSliku">Ahat ruža</div></div>  
+          </div>
+          <div style="display: flex;">
+            <p class="OOpisSlike">Milpillas Mine, Sonora, Meksiko</p>
+            <p class="OOpisSlike">French mines, Medvednica, Hrvatska</p>    
+          </div>
+        </div>
+        
+        <div class="SetSlika" style="display: flex; flex-direction: column;">
+          <div class="SetSlika2" style="display: flex;">
+            <div class="Slikica"><img src="/Mineralog1/Slike/Vatreni_ahat.jpg" alt="" class="SSlika"><div class="UUzSliku">Vatreni ahat</div></div>
+            <div class="Slikica"><img src="/Mineralog1/Slike/Dendritski_ahat.jpg" alt="" class="SSlika"><div class="UUzSliku">Dendritski ahat</div></div>  
+          </div>
+          <div style="display: flex;">
+            <p class="OOpisSlike">La Rochette, Chaudfontaine, Belgija</p>
+            <p class="OOpisSlike">Red Lead Mine, Zeehan, Tasmanija, Australija</p>
+          </div>
+        </div>
+      
       </div>
+
       <div style="display: flex;">
-        <p style="width: 25%; display: flex; align-items: center; justify-content: center; font-size: 0.8vw; height: 1.5vw; background-color: black; color: white;">Milpillas Mine, Sonora, Meksiko</p>
-        <p style="width: 25%; display: flex; align-items: center; justify-content: center; font-size: 0.8vw; height: 1.5vw; background-color: black; color: white;">French mines, Medvednica, Hrvatska</p>
-        <p style="width: 25%; display: flex; align-items: center; justify-content: center; font-size: 0.8vw; height: 1.5vw; background-color: black; color: white;">La Rochette, Chaudfontaine, Belgija</p>
-        <p style="width: 25%; display: flex; align-items: center; justify-content: center; font-size: 0.8vw; height: 1.5vw; background-color: black; color: white;">Red Lead Mine, Zeehan, Tasmanija, Australija</p>
+        <!--<p style="width: 25%; display: flex; align-items: center; justify-content: center; font-size: 0.8vw; height: 1.5vw; background-color: black; color: white;">Milpillas Mine, Sonora, Meksiko</p>
+        <p style="width: 25%; display: flex; align-items: center; justify-content: center; font-size: 0.8vw; height: 1.5vw; background-color: black; color: white;">French mines, Medvednica, Hrvatska</p>-->
       </div>
 
       
