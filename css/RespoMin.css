@@ -255,21 +255,26 @@ td{
   }
   .SubSet{
     font-size: 1.5vw;
+    text-size-adjust: none;
     top: 1.3vw;
   }
   .SubSet2{
     font-size: 1.4vw;
+    text-size-adjust: none;
     top: 1vw;
   }
 
   .FizRed{
     font-size: 1.8vw;
+    text-size-adjust: none;
   }
   .text{
     font-size: 1.8vw;
+    text-size-adjust: none;
   }
   .SvojstvoNaslov{
     font-size: 2.3vw;
+    text-size-adjust: none;
   }
   table{
     width: 21vw;
@@ -294,18 +299,22 @@ td{
   }
   .SupSet{
     font-size: 1.4vw;
+    text-size-adjust: none;
   }
   .PreLinking{
     font-size: 1.8vw;
+    text-size-adjust: none;
   }
   .Linking{
     height: 3vw;
   }
   .AAutor{
     font-size: 1.8vw;
+    text-size-adjust: none;
   }
   .TText{
     font-size: 1.6vw;
+    text-size-adjust: none;
   }
   .ObjasnjenaSet{
     height: 25vw;
