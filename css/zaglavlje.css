@@ -125,14 +125,46 @@
   border-radius: 2vw;
 }
 
-@media (max-width: 1399px) {
+
+@media(min-width: 1200px)
+{
   .Zaglavlje{
-    height: 5vh;
+    height: fit-content;
   }
-
-  
-
   .Desno1{
-    width: 50%;
+    width: 30%;
+  }
+}
+@media(max-width: 1399px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 30%;
+  }
+}
+@media(max-width: 1199px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 40%;
+  }
+}
+@media(max-width: 991px)
+{
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 40%;
+  }
+}
+
+@media screen and (orientation:landscape){
+  .Desno1{
+    width: 25%;
   }
 }
