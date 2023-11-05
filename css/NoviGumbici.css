@@ -278,3 +278,10 @@
     width: 2vw;
   }
 }
+
+@media screen and (orientation:landscape){
+  .glowing-button3, .glowing-button3-Middle, .glowing-button3-Short{
+    font-size: 1.5vw;
+    padding: 0.8vw 1.2vw;
+  }
+}
