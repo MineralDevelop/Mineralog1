@@ -84,7 +84,7 @@ td{
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 3vw;
+  font-size: 4.5vw;
 }
 .Slikica{
   position: relative;
@@ -128,8 +128,22 @@ td{
   text-align: justify;
   font-family: 'roboto slab';
 }
+.TeksticVise{
+  margin: 0.5vw;
+  font-size: 1vw;
+  text-align: justify;
+  font-family: 'roboto slab';
+  text-size-adjust: none;
+  margin-bottom: -1.2vw;
+}
 .MARGINA{
   margin-left: 1vw;
+}
+.Prozorce{
+  width: 25%;
+  justify-content: space-evenly;
+  display: flex;
+  flex-direction: column;
 }
 
 
@@ -147,7 +161,7 @@ td{
 }
 .SETsvojstva{
   background-color: rgb(245, 245, 245);
-  padding: 1vw 0.5vw;
+  padding: 1vw 5vw;
 }
 .SVAsvojstva{
   display: flex;
@@ -156,13 +170,13 @@ td{
   border: solid;
   padding: 0 1vw;
   margin-top: 1vw;
-  justify-content: space-around;
+  justify-content: center;
   margin-bottom: 1vw;
 }
 .DVAsvojstva{
   display: flex;
   justify-content: space-between;
-  width: 50vw;
+  width: 60vw;
 }
 .Podnožje{
   display: flex;
@@ -235,6 +249,10 @@ td{
     font-size: 2.3vw;
     text-size-adjust: none;
   }
+  .TeksticVise{
+    font-size: 2.3vw;
+    text-size-adjust: none;
+  }
   .L1{
     font-size: 2.3vw;
     text-size-adjust: none;
@@ -284,19 +302,21 @@ td{
     justify-content: space-between;
     flex-direction: column;
     padding: 0;
+    position: relative;
   }
   .DVAsvojstva{
     width: 100%;
-    justify-content: space-around;
-    border-bottom: solid;
+    justify-content: space-between;
+    
     padding-bottom: 1vw;
     margin-bottom: 1vw;
+    
   }
   .Samocentriranje{
     display: flex;
-    width: 100%;
+    width: fit-content;
     align-items: center;
-    justify-content: center;
+    justify-content: start;
   }
   .SupSet{
     font-size: 1.4vw;
@@ -307,7 +327,7 @@ td{
     text-size-adjust: none;
   }
   .Linking{
-    height: 3vw;
+    height: 5.2vw;
   }
   .AAutor{
     font-size: 1.8vw;
@@ -319,5 +339,8 @@ td{
   }
   .ObjasnjenaSet{
     height: 25vw;
+  }
+  .Prozorce{
+    width: 30%;
   }
 }
