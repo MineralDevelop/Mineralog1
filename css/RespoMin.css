@@ -219,6 +219,10 @@ td{
   display: flex;
   flex-direction: column;
 }
+.FormSet{
+  font-size: 1vw;
+  font-family: 'roboto slab'
+}
 
 @media(max-width: 991px){
   /*AHAT NOVI*/
@@ -288,6 +292,10 @@ td{
     font-size: 1.4vw;
     text-size-adjust: none;
     top: 1vw;
+  }
+  .FormSet{
+    font-size: 1.8vw;
+    text-size-adjust: none;
   }
 
   .FizRed{
