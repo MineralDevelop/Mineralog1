@@ -567,7 +567,7 @@
 .gumbac1{
   margin: 0.5vw 0;
   text-decoration: none;
-  border: solid orangered;
+  border: solid orangered 0.3vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 0.3vw 1.5vw;
@@ -585,7 +585,7 @@
 
 .gumbac1-mali{
   text-decoration: none;
-  border: solid orangered;
+  border: solid orangered 0.3vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 0.3vw 1vw;
@@ -603,7 +603,7 @@
 
 .gumbac1-srednji{
   text-decoration: none;
-  border: solid orangered;
+  border: solid orangered 0.3vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 0.3vw 1.3vw;
@@ -617,4 +617,29 @@
   transition: 0.5s;
   box-shadow: 0 0 35px darkred;
   cursor: pointer;
+}
+
+
+
+
+@media(max-width: 991px)
+{
+  .gumbac1{
+    font-size: 2.5vw;
+    padding: 0.5vw 2vw;
+  }
+  .gumbac1-mali{
+    font-size: 2.5vw;
+    padding: 0.3vw 1.4vw;
+  }
+  .gumbac1-srednji{
+    font-size: 2.5vw;
+    padding: 0.3vw 2vw;
+  }
+  .Zaglavlje{
+    height: fit-content;
+  }
+  .Desno1{
+    width: 40%;
+  }
 }
