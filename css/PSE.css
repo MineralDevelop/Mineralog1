@@ -440,6 +440,7 @@ body{
 .Sredinica{
   display: flex;
   align-items: center;
+  font-family: 'work sans';
 }
 .Lijevo, .Desno{
   display: flex;
