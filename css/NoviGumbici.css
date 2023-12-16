@@ -567,7 +567,7 @@
 .gumbac1{
   margin: 0.5vw 0;
   text-decoration: none;
-  border: solid orangered 0.3vw;
+  border: solid orangered 0.2vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 0.3vw 1.5vw;
@@ -578,14 +578,14 @@
 .gumbac1:hover{
   background-color: orangered;
   color: black;
+  box-shadow: 0 0 30px black;
   transition: 0.5s;
-  box-shadow: 0 0 35px darkred;
   cursor: pointer;
 }
 
 .gumbac1-mali{
   text-decoration: none;
-  border: solid orangered 0.3vw;
+  border: solid orangered 0.2vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 0.3vw 1vw;
@@ -597,13 +597,13 @@
   background-color: orangered;
   color: black;
   transition: 0.5s;
-  box-shadow: 0 0 35px darkred;
+  box-shadow: 0 0 35px black;
   cursor: pointer;
 }
 
 .gumbac1-srednji{
   text-decoration: none;
-  border: solid orangered 0.3vw;
+  border: solid orangered 0.2vw;
   font-size: 1.2vw;
   font-weight: bold;
   padding: 0.3vw 1.3vw;
@@ -615,7 +615,7 @@
   background-color: orangered;
   color: black;
   transition: 0.5s;
-  box-shadow: 0 0 35px darkred;
+  box-shadow: 0 0 35px black;
   cursor: pointer;
 }
 

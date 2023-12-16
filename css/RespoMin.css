@@ -224,6 +224,9 @@ td{
   font-size: 1vw;
   font-family: 'roboto slab'
 }
+.ita{
+  font-family: 'roboto slab';
+}
 
 @media(max-width: 991px){
   /*AHAT NOVI*/
