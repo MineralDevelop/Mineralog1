@@ -2,6 +2,10 @@
   display: flex;
   font-size: 3vw;
   letter-spacing: 1.5vw;
+  background-color: orangered;
+  border: solid black 0.3vw;
+  padding: 0.8vw 4vw;
+  border-radius: 1vw;
 }
 
 .Uvod-Okvir{
@@ -10,8 +14,9 @@
   align-items: center;
   justify-content: center;
   height: 5vw;
-  border-bottom: solid;
-  border-bottom-width: 0.2vw;
+  /*border-bottom: solid;
+  border-bottom-width: 0.2vw;*/
+  margin: 1vw;
 }
 
 body{
