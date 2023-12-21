@@ -227,6 +227,11 @@ td{
 .ita{
   font-family: 'roboto slab';
 }
+.SetSlika{
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+}
 
 @media(max-width: 991px){
   /*AHAT NOVI*/
@@ -236,6 +241,9 @@ td{
   }
   .GalSlika{
     flex-direction: column;
+  }
+  .SetSlika{
+    width: 100%;
   }
   .Slikica{
     width: 100%;
