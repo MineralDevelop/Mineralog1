@@ -8,7 +8,6 @@
   margin: 0;
   padding: 0;
 }
-
 body{
   background-color: #FFFFFF;
 }
@@ -74,8 +73,6 @@ body{
   justify-content: center;
   border: solid;
   border-width: 0.4vw;
-  width: 12vw; /* 8.3 */
-  height: 12vw; /* 8.3 */
 
   background-color: #6495ED;
 }
@@ -86,8 +83,6 @@ body{
   justify-content: center;
   border: solid;
   border-width: 0.4vw;
-  width: 12vw; /* 8.3 */
-  height: 12vw; /* 8.3 */
 
   background-color: #CCCCFF;
 }
@@ -98,8 +93,6 @@ body{
   justify-content: center;
   border: solid;
   border-width: 0.4vw;
-  width: 12vw; /* 8.3 */
-  height: 12vw; /* 8.3 */
 
   background-color: #1ABC9C;
 }
@@ -726,7 +719,6 @@ body{
 .Skockica,.Pkockica,.Dkockica,.Fkockica{
   border-width: 0.15vw;
 }
-
 .ElekKonf{
   display: flex;
   flex-direction: column;
@@ -738,11 +730,10 @@ body{
   font-size: 1vw;
   height: 14vw;
   align-items: center;
-
+  padding-bottom: 1vw;
   border: solid;
   border-width: 0.15vw;
   width: 90vw;
-  height: 30vw;
 }
 
 .BrojElek{
@@ -907,8 +898,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2vw;
-  font-size: 1.2vw;
+  height: 3vw;
+  font-size: 1.5vw;
   border-bottom: solid;
   /*font-family: 'Rubik';*/
   font-family: 'roboto slab';
@@ -926,8 +917,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.8vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   /*font-family: 'rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -941,8 +931,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.8vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   /*font-family: 'rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -954,8 +943,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1.8vw;
-  font-size: 0.7vw;
+  font-size: 1vw;
   /*font-family: 'Rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -969,11 +957,10 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.2vw;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   /*font-family: 'Rubik';*/
-  font-family: 'roboto slab';
-  font-weight: bold;
+  font-family: 'rubik';
+  font-weight: 300;
   border-right: solid;
   border-width: 0.1vw;
   width: 25%;
@@ -982,19 +969,17 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.2vw;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   /*font-family: 'Rubik';*/
-  font-family: 'roboto slab';
-  font-weight: bold;
+  font-family: 'rubik';
+  font-weight: 300;
   width: 60%;
 }
 .PostotakEleU-Novo{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.2vw;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   /*font-family: 'rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -1010,13 +995,19 @@ body{
   border-top-width: 0.1vw;
   
 }
+.RaspodjelaM-Novo2{
+  display: flex;
+  border-top: solid;
+  border-top-width: 0.1vw;
+  background-color: rgba(18, 99, 230, 0.149);
+}
 .RaspodjelaPrvi-Novo{
   display: flex;
 }
 
 
 
-
+	  
 
 
 .Tablica{
@@ -1198,14 +1189,7 @@ body{
   border-width: 0.15vw;
   margin-top: 1vw;
 }
-.NajvažnijiSpojeviNaslov{
-  display: flex;
-  font-size: 1.2vw;
-  font-weight: bold;
-  font-family: 'roboto slab';
-  justify-content: center;
-  margin: 1vw;
-}
+
 
 .Spoj{
   display: flex;
@@ -1414,7 +1398,7 @@ body{
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
-  font-family: 'roboto slab';
+  font-family: 'rubik';
   font-size: 1vw;
   font-weight: bold;
   border-top: solid;
@@ -1426,6 +1410,7 @@ body{
   height: 4vw;
   margin-bottom: 2vw;
 }
+
 /*
 .Nazad{
   display: flex;
@@ -1437,23 +1422,22 @@ body{
 }
 dec-none
 */
-
 .Gumb-Element{
   border: none;
-  font-family: 'roboto slab';
-  font-size: 0.9vw;
+  font-family: 'rubik';
+  font-size: 1vw;
   font-weight: bold;
-  color: black;
-  background-color: royalblue;
-  text-decoration: underline;
+  color: red;
+  background-color: transparent;
+  text-decoration: none;
 }
 .Gumb-Element:hover{
-  opacity: 0.5;
+  color: white;
   cursor: pointer;
 }
 .Gumb-Element:active{
-  opacity: 1;
-  color: rgb(255, 255, 255);
+  color: red;
+  opacity: 0.5;
 }
 
 /*
@@ -1549,6 +1533,7 @@ dec-none
   border-collapse: collapse;
 }
 
+
 .Tabla2{
   width: 15%;
   border: solid 0.1vw;
@@ -1576,17 +1561,16 @@ flex-direction: column;
 align-items: center;
 height: 4vw;
 }
-
 .EKONFKONF{
   display: flex;
   padding-bottom: 0.1vw;
-  padding-right: 1vw;
-  padding-left: 1vw;
+  padding-right: 2vw;
+  padding-left: 2vw;
   border: solid;
   border-width: 0.1vw;
   border-top: none;
   width: fit-content;
-  font-size: 1vw;
+  font-size: 1.3vw;
   justify-content: center;
 }
 
@@ -1615,7 +1599,7 @@ height: 4vw;
 
 .EKF{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   width: 100%;
 }
 
@@ -1625,14 +1609,15 @@ height: 4vw;
 
 .NajvažnijiSpojeviNaslov{
   display: flex;
-  padding-bottom: 0.1vw;
-  padding-right: 1vw;
-  padding-left: 1vw;
+  font-family: 'roboto slab';
+  font-weight: bold;
+  padding-right: 2vw;
+  padding-left: 2vw;
   border: solid;
   border-width: 0.1vw;
   border-top: none;
   width: fit-content;
-  font-size: 1vw;
+  font-size: 1.3vw;
   justify-content: center;
 }
 
@@ -1646,4 +1631,28 @@ height: 4vw;
   line-height: 1.5vw;
 }
 
-
+.OkvirGumba{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.Gumbek{
+  background-color: royalblue;
+  padding: 0.7vw 3vw;
+  font-size: 1.5vw;
+  font-family: 'Rubik';
+  border-radius: 0 0 1vw 1vw;
+  border: solid black 0.2vw;
+  border-top: none;
+  font-weight: bold;
+  color: black;
+  margin-top: 0;
+}
+.Gumbek:hover{
+  color: white;
+  cursor: pointer;
+}
+.Povrat{
+  margin-top: 0;
+}
