@@ -1,3 +1,4 @@
+
 @media(min-width: 1200px)
       {
         
@@ -5,11 +6,18 @@
           flex-direction: row;
           width: 90vw;
         }
-
+        
         .IzPSEMetal{
           width: 15vw;
           height: 15vw;
-          border: solid 0.2vw;
+        }
+        .IzPSENemetal{
+          width: 15vw;
+          height: 15vw;
+        }
+        .IzPSEPolumetal{
+          width: 15vw;
+          height: 15vw;
         }
         .AtomskiBroj{
           font-size: 2.6vw;
@@ -75,6 +83,7 @@
           font-size: 1vw;
           padding: 0.1vw 0.2vw;
         }
+        
         .Deset{
           font-size: 1vw;
           padding: 0.1vw 0.2vw;
@@ -82,6 +91,9 @@
         }
         .tst{
           font-size: 1vw;
+        }
+        .tstS{
+          font-size: 1.2vw;
         }
         .tstNema{
           font-size: 1vw;
@@ -92,6 +104,10 @@
         }
         .Pgraf{
           font-size: 1vw;
+        }
+        .SPDFNASLOV{
+          display: flex;
+          justify-content: center;
         }
       }
       @media(max-width: 1399px)
@@ -104,6 +120,11 @@
       }
       @media(max-width: 991px)
       {
+        .Gumbek{
+          font-size: 3vw;
+          padding: 1vw 3vw;
+          border-width: 0.3vw;
+        }
         .SpojSpoj{
           align-items: start;
         }
@@ -131,6 +152,16 @@
           justify-content: space-between;
         }
         .IzPSEMetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .IzPSENemetal{
+          width: 35vw;
+          height: 35vw;
+          border: solid 0.5vw;
+        }
+        .IzPSEPolumetal{
           width: 35vw;
           height: 35vw;
           border: solid 0.5vw;
@@ -328,6 +359,7 @@
           padding-bottom: 0.7vw;
               text-size-adjust: none;
         }
+        
         .TekstKoristiSF{
           font-size: 2.2vw;
           line-height: 2.7vw;
@@ -352,6 +384,7 @@
         }
         .Minerali-Novo{
           width: 90vw;
+          border-width: 0.5vw;
         }
         .PostotakEleU-Novo, .FormulaMinU-Novo, .ImeMinU-Novo{
           font-size: 2.2vw;
@@ -388,36 +421,12 @@
           display: table-cell;
           text-align: center;
           font-size: 2.2vw;
-          color: black;
         }
         .Gumb-Element{
           font-size: 2.2vw;
           text-decoration: none;
         }
-        /*AHAT NOVI*/
-        .NaslovOtvaranje{
-          font-size: 5.5vw;
-        }
-        .GalSlika{
-          flex-direction: column;
-        }
-        .Slikica{
-          width: 100%;
-        }
-        .SetSlika2{
-          height: 40vw;
-        }
-        .SSlika{
-          height: 40vw;
-        }
-        .OOpisSlike{
-          height: 2.5vw;
-          font-size: 2vw;
-        }
-        .UUzSliku{
-          bottom: -30%;
-          font-size: 2vw;
-        }
+        
       }
 
 
