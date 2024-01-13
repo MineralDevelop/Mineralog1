@@ -1667,6 +1667,18 @@ height: 4vw;
   border-collapse: collapse;
   font-family: 'Rubik';
 }
+.SS{
+  padding: 0 2vw;
+  font-size: 0.55vw;
+  display: flex;
+  justify-content: center;
+}
+.SL{
+  padding: 0 2vw;
+  font-size: 0.55vw;
+  display: flex;
+  justify-content: center;
+}
 .GlNas{
   font-size: 1.7vw;
   padding: 0.5vw 0.5vw;
