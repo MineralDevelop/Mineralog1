@@ -1426,7 +1426,7 @@ dec-none
 .Gumb-Element{
   border: none;
   font-family: 'rubik';
-  font-size: 1vw;
+  font-size: 0.6vw;
   font-weight: bold;
   color: royalblue;
   background-color: transparent;
@@ -1699,4 +1699,8 @@ height: 4vw;
 }
 .l3:hover,.l2:hover,.l1:hover{
   cursor: pointer;
+  color: blue;
+  text-decoration: underline;
+  text-decoration-color: black;
 }
+
