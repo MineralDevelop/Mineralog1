@@ -1659,6 +1659,7 @@ height: 4vw;
 }
 
 .Tabla{
+  
   margin-top: 1vw;
   margin-bottom: 1vw;
   width: 90vw;
@@ -1676,14 +1677,18 @@ height: 4vw;
 .PodNP{
   font-size: 1vw;
 }
+
 .Imee{
   width: 25%;
+  font-size: 1vw;
 }
 .Formulaa{
   width: 65%;
+  font-size: 1vw;
 }
 .Postotakk{
   width: 10%;
+  font-size: 1vw;
 }
 .l1{
   font-style: italic;
