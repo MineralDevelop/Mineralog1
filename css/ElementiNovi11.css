@@ -1683,11 +1683,9 @@ height: 4vw;
   font-size: 1.7vw;
   padding: 0.5vw 0.5vw;
 }
-.PodNI,.PodNF{
+.PodNI,.PodNF,.PodNP{
   font-size: 1.2vw;
-}
-.PodNP{
-  font-size: 1vw;
+  padding: 0.8vw 0vw;
 }
 
 .Imee{
