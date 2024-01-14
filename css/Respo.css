@@ -437,11 +437,9 @@
         .GlNas{
           font-size: 2vw;
         }
-        .PodNI,.PodNF{
+        .PodNI,.PodNF,.PodNP{
           font-size: 1.5vw;
-        }
-        .PodNP{
-          font-size: 1vw;
+          padding: 1vw 0vw;
         }
         .SS{
           font-size: 1.2vw;
