@@ -24,7 +24,12 @@
         }
         .Simbol{
           font-size: 6.3vw;
-          
+        }
+        .Simbol-Plin{
+          font-size: 6.3vw;
+        }
+        .Simbol-Tekucina{
+          font-size: 6.3vw;
         }
         .Ime{
           font-size: 2.3vw;
@@ -55,7 +60,6 @@
         .PSEOPCE{
           width: 40vw;
           justify-content: space-between;
-          
         }
         .OPCENASLOV{
           font-size: 1.3vw;
@@ -65,7 +69,6 @@
           margin-top: 1vh;
           font-family: 'Rubik';
           border: solid 0.2vw;
-          
         }
         .SupSet2{
           font-size: 0.7vw;
@@ -77,7 +80,6 @@
           width: 50%;
           font-family: 'Rubik';
           border: solid 0.2vw;
-          
         }
         .Dvadeset{
           font-size: 1vw;
@@ -171,6 +173,14 @@
           font-size: 6vw;
         }
         .Simbol{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Simbol-Plin{
+          font-size: 13vw;
+          margin: -1vw 0;
+        }
+        .Simbol-Tekucina{
           font-size: 13vw;
           margin: -1vw 0;
         }

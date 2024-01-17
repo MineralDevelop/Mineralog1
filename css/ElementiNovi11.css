@@ -159,6 +159,7 @@ body{
 
   height: 9vw;
 }
+
 .SimbolPSE{
   font-size: 1.4vw;
   font-family: 'Rubik';
@@ -733,8 +734,8 @@ body{
   align-items: center;
   padding-bottom: 1vw;
   border: solid;
-  border-width: 0.15vw;
-  width: 90vw;
+  border-width: 0.2vw;
+  width: 89.688vw;
 }
 
 .BrojElek{
@@ -1539,7 +1540,9 @@ dec-none
   width: 15%;
   border: solid 0.1vw;
   border-collapse: collapse;
+  height: 15.7vw;
 }
+
 .Dvadeset{
   width: 70%;
   text-align: right;
@@ -1635,17 +1638,17 @@ height: 4vw;
 .OkvirGumba{
   width: 100%;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: left;
+  margin-top: 0.5vw;
+  margin-left: 0.5vw;
 }
 .Gumbek{
   background-color: royalblue;
   padding: 0.7vw 3vw;
   font-size: 1.5vw;
   font-family: 'Rubik';
-  border-radius: 0 0 1vw 1vw;
+  border-radius: 2vw 0.5vw 0.5vw 2vw;
   border: solid black 0.2vw;
-  border-top: none;
   font-weight: bold;
   color: black;
   margin-top: 0;
@@ -1717,5 +1720,35 @@ height: 4vw;
   color: blue;
   text-decoration: underline;
   text-decoration-color: black;
+}
+
+.DrugiTR{
+  background-color: rgba(2, 112, 255, 0.192);
+}
+
+.NZD{
+  position: fixed;
+  margin-top: 2vw;
+  display: flex;
+  writing-mode: vertical-lr;
+  transform: rotate(180deg);
+  align-items: center;
+  justify-content: center;
+  height: 20vw;
+  width: 3vw;
+  background-color: royalblue;
+  font-family: 'rubik';
+  font-size: 1.1vw;
+  color: black;
+  letter-spacing: 0.1vw;
+  font-weight: bold;
+  border: solid black 0.2vw;
+  border-right: none;
+  border-radius: 1vw 0 0 1vw;
+}
+.NZD:hover{
+  cursor: pointer;
+  transition: 1s;
+  color: white;
 }
 
