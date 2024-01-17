@@ -140,7 +140,12 @@
           margin-bottom: -3vw;
           justify-content: center;
           font-size: 2.5vw;
-          
+        }
+        .NZD{
+          font-size: 2vw;
+          height: 40vw;
+          width: 3.5vw;
+
         }
         .DDDDD{
           font-size: 2.5vw;
