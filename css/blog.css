@@ -39,7 +39,13 @@ body{
 .Alink:hover, .Blink:hover{
   color: silver;
 }
-
+.dropdown-item{
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%
+}
 .Pravo{
   color: white;
   background-color: royalblue;
