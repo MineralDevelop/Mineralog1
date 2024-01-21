@@ -5,47 +5,7 @@ body{
 * {
   font-family: 'Rubik';
 }
-.dropdown-item:hover{
-  background-color: royalblue;
-  color: white;
-}
-.Alink{
-  display: flex;
-  text-decoration: none; 
-  color: black;
-  height: 100%;
-  align-items: center;
-  margin-left: 0.5vw;
-}
-.Blink{
-  font-family: 'rubik';
-  font-weight: bold;
-  display: flex;
-  background-color: transparent;
-  border: none;
-  font-size: 1vw;
-  padding: 0 1vw; 
-  height: 4vh;
-  color: white;
-  border-radius: 10vw;
-  align-items: center;
-  justify-content: center;
-  padding-top: 0.1vw;
-  transition: 0.3s;
-}
-.Alink{
-  color: silver;
-}
-.Alink:hover, .Blink:hover{
-  color: silver;
-}
-.dropdown-item{
-  font-size: 1.2vw;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%
-}
+
 .Pravo{
   color: white;
   background-color: royalblue;

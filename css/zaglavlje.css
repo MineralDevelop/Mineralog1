@@ -124,8 +124,50 @@
   margin-right: 1.82vw;
   border-radius: 2vw;
 }
-
-
+.dropdown-item:hover{
+  background-color: royalblue;
+  color: white;
+}
+.Alink{
+  display: flex;
+  text-decoration: none; 
+  color: black;
+  height: 100%;
+  align-items: center;
+  margin-left: 0.5vw;
+}
+.Blink{
+  font-family: 'rubik';
+  font-weight: bold;
+  display: flex;
+  background-color: transparent;
+  border: none;
+  font-size: 1vw;
+  padding: 0 1vw; 
+  height: 4vh;
+  color: white;
+  border-radius: 10vw;
+  align-items: center;
+  justify-content: center;
+  padding-top: 0.1vw;
+  transition: 0.3s;
+}
+.Alink{
+  color: silver;
+}
+.Alink:hover, .Blink:hover{
+  color: silver;
+}
+.dropdown-item{
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%
+}
+.Mjestooo{
+  font-family: 'rubik';
+}
 @media(min-width: 1200px)
 {
   .Zaglavlje{
@@ -167,4 +209,85 @@
   .Desno1{
     width: 25%;
   }
+}
+
+
+
+
+
+
+
+
+
+@media (min-width: 1200px) {
+  
+  .Blink{
+    font-size: 1.2vw;
+  }
+  .Mjestoo{
+    font-size: 1vw;
+  }
+}
+
+
+
+@media (max-width: 1199px) {
+  
+  .Blink{
+    font-size: 1.5vw;
+    padding: 0 1.5vw;
+  }
+}
+
+@media (max-width: 991px) {
+  
+  .Blink{
+    font-size: 3.5vw;
+    padding: 0 2vw;
+  }
+  .Mjestooo{
+    font-size: 2.3vw;
+  }
+  .btn{
+    font-size: 3.5vw;
+  }
+  .dropdown-item{
+    font-size: 3vw;
+    height: 6vw;
+  }
+}
+@media (max-height: 421px) and (orientation: landscape){
+  .Blink{
+    font-size: 1.2vw;
+  }
+  .Mjestooo{
+    font-size: 1vw;
+  }
+  .btn{
+    font-size: 1.2vw;
+  }
+  .dropdown-item{
+    font-size: 2vw;
+    height: 2vw;
+  }
+}
+
+
+@media (max-width: 767px) {
+  
+  .Blink{
+    font-size: 3vw;
+    padding: 0 3vw;
+  }
+}
+
+@media (max-width: 575px) {
+  
+  .Blink{
+    font-size: 3.5vw;
+    padding: 0 3vw;
+  }
+}
+.btn:hover{
+  color: silver;
 }
