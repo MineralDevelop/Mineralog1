@@ -2,10 +2,18 @@
 <html>
   <head>
     <title>Minerali</title>
+    <link rel="stylesheet" href="/bootstrap-5.3.2-dist/css/bootstrap.css">
     <link rel="stylesheet" href="css/zaglavlje.css">
     <link rel="stylesheet" href="css/MineraliTest.css">
     <link rel="stylesheet" href="css/NoviGumbici.css">
     <style>
+      *{
+        box-sizing: content-box;
+        --bs-body-line-height: 0:
+      }
+      p{
+        margin: 0;
+      }
       @media (min-width: 1200px){
 
       }
@@ -82,15 +90,40 @@
           font-size: 0.4rem;
         }
       }
+      .dropdown-menu,.dropdown,.dropdown-item,.Lili,.btn,
+      .dropdown-menu::after,.dropdown::after,.dropdown-item::after,.Lili::after,.btn::after,
+      .dropdown-menu::before,.dropdown::before,.dropdown-item::before,.Lili::before,.btn::before{
+        box-sizing: border-box;
+      }
     </style>
   </head>
   <body>
-    <div class="Zaglavlje" style="background-color: #454545;">
-      <!--style=" background-color: rgb(51, 51, 51); z-index: 100;"-->
+    <div style="display: flex; background-color: #454545; height: 6vh; position: relative; z-index: 100; width: 100%;">
+      <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center;"><a class="Alink" href="/Mineralog1/index.html"><button class="Blink">MineralogijaHR</button></a></div>
+      <div style="margin-top: -0.2vw; display: flex; width: 100%; align-items: center; color: white; justify-content: center;"><div class="Mjestooo">&#8275; Mjesto gdje su svi minerali prirodni &#8275;</div></div>
+      <div style="margin-top: -0.2vw; display: flex; width: 30%; align-items: center; justify-content: right; margin-right: 1.5vw;">
+        
+        
+  
+        <div class="dropdown">
+          <button class="btn btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false" style="background-color: transparent; border: none;">
+            Menu
+          </button>
+          <ul class="dropdown-menu" style="height: fit-content;">
+            <li><a class="dropdown-item" href="/Mineralog1/Minerali.html">Minerali</a></li>
+            <li><a class="dropdown-item" href="/Mineralog1/Galerija.html">Galerija</a></li>
+            <li><a class="dropdown-item" href="/Mineralog1/PSEtest.html">PSE</a></li>
+          </ul>
+        </div>
+        
+        
+      </div>
+    </div>
+    <!--<div class="Zaglavlje" style="background-color: #454545;">
+      style=" background-color: rgb(51, 51, 51); z-index: 100;"
   
       <div class="Lijevo1" style="background-color: #454545; margin-left: 2vw;">
         <a class="gumbac1" style="font-family: 'Rubik'" href="index.html">Mineralogija.hr</a>
-        <div style="color: white; font-family: 'rubik';">&nbsp;- svi minerali su prirodni ako u opisu slike nije navedeno drugačije</div>
       </div>
   
       <div class="Desno1" style="background-color: #454545">
@@ -99,14 +132,15 @@
         <a class="gumbac1-srednji" style="font-family: 'Rubik';" href="Galerija.html">Galerija</a>
       </div>
   
-    </div>
+    </div>-->
 
     <!-- Informacije -->
     
     <!--<div class="Uvod-Okvir">
       <p class="Uvod">MINERALI</p>
-    </div>-->
-
+    </div>
+    <div style="color: white; background-color: royalblue; padding: 0.5vw; font-size: 1.5vw; width: 100%; display: flex; justify-content: center; border-bottom: solid black 0.25vw;">&#10097; &nbsp;&#10097; &nbsp;&#10097; &nbsp;Svi minerali su prirodni ukoliko u opisu slike nije navedeno drugačije &nbsp;&#10096; &nbsp;&#10096; &nbsp;&#10096;</div>
+    -->
     <!-- Minerali -->
 
 
@@ -368,6 +402,6 @@
     </div>
       
 
-
+    <script type="text/javascript" src="/bootstrap-5.3.2-dist/js/bootstrap.bundle.js"></script>
   </body>
 </html>
