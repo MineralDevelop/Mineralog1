@@ -73,9 +73,11 @@ body{
   justify-content: center;
   border: solid;
   border-width: 0.4vw;
+  border-color: black;
 
   background-color: #6495ED;
 }
+
 .IzPSENemetal{
   display: flex;
   flex-direction: column;
@@ -83,6 +85,7 @@ body{
   justify-content: center;
   border: solid;
   border-width: 0.4vw;
+  border-color: black;
 
   background-color: #CCCCFF;
 }
@@ -93,6 +96,7 @@ body{
   justify-content: center;
   border: solid;
   border-width: 0.4vw;
+  border-color: black;
 
   background-color: #1ABC9C;
 }
@@ -102,18 +106,21 @@ body{
   margin-bottom: -0.6vw;
   font-family: 'work sans';
   font-weight: bold;
+  color: black;
 }
 .Ime{
   font-size: 2.2vw; /*1.6*/
   margin-top: -0.8vw;
   font-weight: bold;
   font-family: 'Zilla Slab';
+  color: black;
 }
 .Relativna{
   font-size: 2vw; /* 1.4 */
   margin-top: -0.2vw;
   font-family: 'work sans';
   font-weight: bold;
+  color: black;
 }
 .Simbol{
   font-size: 4.6vw; /*4*/
@@ -239,6 +246,7 @@ body{
   margin-top: 1vw; /*1*/
   line-height: 1.8vw;
   text-align: justify; /*new*/
+  font-weight: 500;
 
 
   text-size-adjust: none; 
@@ -660,10 +668,17 @@ body{
 
 
 .prob{
-  color: royalblue;
-  text-shadow: 0.02vw 0.02vw black, -0.02vw 0.02vw black, 0.02vw -0.02vw black, -0.02vw -0.02vw black;
+  color: #0073CF;
+  /*color: #0066FF;*/
+  /*color: #007FFF;*/
+  /*color: royalblue;*/
+  text-decoration: none;
 }
-
+.prob:hover
+{
+  cursor: pointer;
+  color: blue;
+}
 
 .HenryC{
   height: 20vw;
@@ -721,6 +736,7 @@ body{
 .Skockica,.Pkockica,.Dkockica,.Fkockica{
   border-width: 0.15vw;
 }
+
 .ElekKonf{
   display: flex;
   flex-direction: column;
@@ -728,14 +744,14 @@ body{
   margin-left: 2vw;
   margin-right: 2vw;
   font-family: 'roboto slab';
-  font-weight: bold;
+  font-weight: 500;
   font-size: 1vw;
-  height: 14vw;
   align-items: center;
   padding-bottom: 1vw;
   border: solid;
   border-width: 0.2vw;
-  width: 89.688vw;
+  width: 90vw;
+  box-sizing: border-box; /* content-box 12.2.24 */
 }
 
 .BrojElek{
@@ -780,6 +796,7 @@ body{
   font-family: 'roboto slab';
   font-weight: bold;
   padding-top: 2vw;
+  font-weight: 500;
   width: 30vw;
   text-align: justify;
 }
@@ -803,13 +820,15 @@ body{
 }
 
 .OTubi{
-  /*display: flex;*/
+  display: flex;
   font-size: 0.85vw;
   font-family: 'roboto slab';
   font-weight: bold;
   padding-bottom: 2vw;
   width: 30vw;
   text-align: justify;
+  justify-content: end;
+  font-weight: 500;
 }
 .Zajednica{
   display: flex;
@@ -1186,9 +1205,10 @@ body{
 .NajvažnijiSpojevi{
   display: flex;
   flex-direction: column;
+  box-sizing: border-box; /* content-box 12.2.24 */
   width: 90vw;
   border: solid;
-  border-width: 0.15vw;
+  border-width: 0.2vw;
   margin-top: 1vw;
 }
 
@@ -1220,7 +1240,7 @@ body{
   display: flex;
   font-family: 'roboto slab';
   font-size: 1.2vw;
-  font-weight: bold;
+  font-weight: 550;
 }
 
 .StrManja{
@@ -1260,7 +1280,8 @@ body{
   padding-right: 1vw;
   text-align: justify;
   align-items: start;
-  margin-top: 0.3vw;
+  margin-top: 0.4vw;
+  padding-left: 0.5vw;
 }
 .TekstPodnaslova{
   display: flex;
@@ -1276,32 +1297,43 @@ body{
   font-family: 'roboto slab'; 
   text-align: justify;
   padding-right: 1vw; 
-  /*padding-top: 0.2vw; */
-  padding-left: 0.5vw; 
-  line-height: 1.5vw;
+  padding-top: 0.4vw;
+  padding-left: 0.5vw;
 }
 
 .Redic{
   display: flex;
   padding-left: 2.5vw;
+  align-items: start;
+  line-height: 1.5vw;
+  font-size: 1vw;
+  font-family: 'roboto slab';
 }
 .RedicPodnaslov{
   display: flex;
   padding-left: 1vw;
-  font-weight: bold;
+  font-weight: 550;
+  line-height: 1.5vw;
 }
 
-.StrKorist{
-  font-size: 1.5vw;
-  font-weight: bold;
+.SlikaStr{
+  height: 1.7vw;
+  object-fit: cover;
+  object-position: center;
+  padding-top: 0.1vw;
+}
+.SlikaStr2{
+  height: 1.7vw;
+  object-fit: cover;
+  object-position: center;
+  padding-top: 0.05vw;
 }
 .StrNapraviti{
   display: flex;
   align-items: center;
   font-size: 1.5vw;
+  padding-bottom: 0.4vw;
   padding-right: 0.5vw;
-  height: 1.85vw;
-  font-weight: bold;
 }
 
 .SubSet{
@@ -1326,6 +1358,18 @@ body{
   vertical-align: top;
   position: relative;
   font-size: 0.8vw;
+  top: 0.35vw;
+}
+.SubSet3{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.8vw;
+  top: 0.6vw;
+}
+.SubSet4{
+  vertical-align: top;
+  position: relative;
+  font-size: 0.7vw;
   top: 0.45vw;
 }
 .SubSetFor{
@@ -1334,6 +1378,7 @@ body{
   font-size: 0.6vw;
   top: 0.45vw;
 }
+
 .SupSet2{
   vertical-align: top;
   position: relative;
@@ -1344,6 +1389,7 @@ body{
 .TekstKoristiwSpoj{
   display: flex;
   flex-direction: row;
+  align-items: center;
   font-size: 1vw; 
   font-family: 'roboto slab'; 
   text-align: justify;
@@ -1351,6 +1397,7 @@ body{
   /*padding-top: 0.2vw; */
   padding-left: 0.5vw; 
   line-height: 1.5vw;
+  padding-top: 0.4vw;
   width: 100%;
   justify-content: space-between;
 }
@@ -1531,7 +1578,7 @@ dec-none
 
 .Table{
   width: 80%;
-  border: solid 0.1vw;
+  border: none;
   border-collapse: collapse;
 }
 
@@ -1568,12 +1615,10 @@ height: 4vw;
 .EKONFKONF{
   display: flex;
   padding-bottom: 0.1vw;
-  padding-right: 2vw;
-  padding-left: 2vw;
   border: solid;
-  border-width: 0.1vw;
+  border-width: 0.2vw;
   border-top: none;
-  width: fit-content;
+  width: 20vw;
   font-size: 1.3vw;
   justify-content: center;
 }
@@ -1614,14 +1659,19 @@ height: 4vw;
 .NajvažnijiSpojeviNaslov{
   display: flex;
   font-family: 'roboto slab';
-  font-weight: bold;
-  padding-right: 2vw;
-  padding-left: 2vw;
+  width: 100%;
+  justify-content: center;
+}
+.Nasslov{
+  display: flex;
   border: solid;
-  border-width: 0.1vw;
+  border-width: 0.2vw;
   border-top: none;
-  width: fit-content;
   font-size: 1.3vw;
+  font-family: 'roboto slab';
+  padding-bottom: 0.1vw;
+  font-weight: 500;
+  width: 20vw;
   justify-content: center;
 }
 
@@ -1660,40 +1710,67 @@ height: 4vw;
 .Povrat{
   margin-top: 0;
 }
-
 .Tabla{
-  
-  margin-top: 1vw;
-  margin-bottom: 1vw;
-  width: 90vw;
-  border: solid black 0.2vw;
+  width: 100%;
+  border: none;
   border-collapse: collapse;
   font-family: 'Rubik';
+  box-sizing: content-box;
 }
+
 .SS{
-  padding: 0 2vw;
+  padding: 0 1vw;
+  font-weight: 500;
   font-size: 0.55vw;
   display: flex;
   justify-content: center;
+  font-family: 'roboto slab';
 }
 .SL{
   padding: 0 2vw;
   font-size: 0.55vw;
+  font-weight: 500;
   display: flex;
   justify-content: center;
+  font-family: 'roboto slab';
 }
 .GlNas{
   font-size: 1.7vw;
   padding: 0.5vw 0.5vw;
+  margin: 0;
+  font-weight: 500;
+  border: none;
 }
 .PodNI,.PodNF,.PodNP{
   font-size: 1.2vw;
   padding: 0.8vw 0vw;
+  font-weight: 500;
 }
-
+.PodNI{
+  border-left: none;
+}
+.PodNP{
+  border-right: none;
+}
+.Boix{
+  box-sizing: content-box;
+  margin-top: 1vw;
+  margin-bottom: 2vw;
+  width: 90vw;
+}
+.Medju{
+  display: flex;
+  border: solid 0.2vw;
+  box-sizing: border-box; /* content-box 12.2.24 */
+  width: 90vw;
+  margin-top: 1vw;
+  margin-bottom: 1vw;
+  height: fit-content;
+}
 .Imee{
   width: 25%;
   font-size: 1vw;
+  border-left: none;
 }
 .Formulaa{
   width: 65%;
@@ -1702,7 +1779,9 @@ height: 4vw;
 .Postotakk{
   width: 10%;
   font-size: 1vw;
+  border-right: none;
 }
+
 .l1{
   font-style: italic;
   text-decoration:underline;
@@ -1718,8 +1797,6 @@ height: 4vw;
 .l3:hover,.l2:hover,.l1:hover{
   cursor: pointer;
   color: blue;
-  text-decoration: underline;
-  text-decoration-color: black;
 }
 
 .DrugiTR{
@@ -1752,3 +1829,59 @@ height: 4vw;
   color: white;
 }
 
+.Sl1{
+  width: 20%;
+  height: 50vh;
+  object-fit: cover;
+  border-radius: 1vw;
+  border: solid black 0.2vw;
+}
+
+.Te1{
+  display: flex;
+  font-family: 'roboto slab';
+  font-weight: 550;
+  font-size: 1vw;
+  justify-content: end;
+  text-align: justify;
+  padding: 0 2vw;
+}
+
+.Te2{
+  display: flex;
+  font-family: 'roboto slab';
+  font-weight: 550;
+  font-size: 1vw;
+  justify-content: end;
+  text-align: justify;
+  padding: 0 2vw;
+}
+
+.Sl2{
+  width: 100%;
+  height: 50vh;
+  width: 40vw;
+  object-fit: cover;
+  border-radius: 1vw;
+  border: solid black 0.2vw;
+}
+
+.Okv{
+  height: 50vh;
+}
+
+.Tan{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 1vw;
+}
+.Ops{
+  font-size: 1vw;
+}
+
+.klasa{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}

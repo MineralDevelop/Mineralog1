@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Zilla+Slab:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Source+Serif+Pro:wght@600&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@350&display=swap');
 *{
   margin: 0;
@@ -360,9 +360,7 @@ body{
 
 
   
-  font-size: 1.4vw;
-  font-family: 'Rubik';
-  font-weight: 200;
+  font-size: 2vw;
 
   border-right: solid;
   border-width: 0.15vw;
@@ -902,8 +900,8 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 2vw;
-  font-size: 1.2vw;
+  height: 3vw;
+  font-size: 1.5vw;
   border-bottom: solid;
   /*font-family: 'Rubik';*/
   font-family: 'roboto slab';
@@ -921,8 +919,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.8vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   /*font-family: 'rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -936,8 +933,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.8vw;
-  font-size: 1vw;
+  font-size: 1.3vw;
   /*font-family: 'rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -949,8 +945,7 @@ body{
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  height: 1.8vw;
-  font-size: 0.7vw;
+  font-size: 1vw;
   /*font-family: 'Rubik';*/
   font-family: 'roboto slab';
   font-weight: bold;
@@ -964,35 +959,30 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.2vw;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   /*font-family: 'Rubik';*/
-  font-family: 'roboto slab';
-  font-weight: bold;
+  font-family: 'rubik';
   border-right: solid;
   border-width: 0.1vw;
+  font-weight: 300;
   width: 25%;
 }
 .FormulaMinU-Novo{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.2vw;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   /*font-family: 'Rubik';*/
-  font-family: 'roboto slab';
-  font-weight: bold;
+  font-family: 'rubik';
   width: 60%;
 }
 .PostotakEleU-Novo{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1.2vw;
-  font-size: 0.8vw;
+  font-size: 1.2vw;
   /*font-family: 'rubik';*/
-  font-family: 'roboto slab';
-  font-weight: bold;
+  font-family: 'rubik';
 
   border-left: solid;
   border-width: 0.1vw;
@@ -1005,10 +995,15 @@ body{
   border-top-width: 0.1vw;
   
 }
+.RaspodjelaM-Novo2{
+  display: flex;
+  border-top: solid;
+  border-top-width: 0.1vw;
+  background-color: rgba(18, 99, 230, 0.149);
+}
 .RaspodjelaPrvi-Novo{
   display: flex;
 }
-
 
 
 
@@ -1474,3 +1469,8 @@ dec-none
   color: rgb(255, 255, 255);
 }
 */
+
+.ImeMinU{
+  font-size: 1.5vw;
+  font-family: 'rubik';
+}

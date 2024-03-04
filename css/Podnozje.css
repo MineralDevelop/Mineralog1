@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@450&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@600&display=swap');
 .Linking{
   height: 1.8vw;
@@ -23,6 +24,12 @@
   font-weight: bold;
 }
 .TText{
+  color: white;
+  font-size: 0.8vw;
+  font-family: 'Rubik';
+  font-weight: 300;
+}
+.TTText{
   color: white;
   font-size: 0.8vw;
   font-family: 'Rubik';

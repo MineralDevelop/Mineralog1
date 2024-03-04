@@ -10,6 +10,7 @@ body{
   font-weight: 600;
   font-family: 'roboto slab';
 }
+
 .SubSet{
   vertical-align: top;
   position: relative;
@@ -93,6 +94,7 @@ td{
   justify-content: center;
   font-size: 4.5vw;
   letter-spacing: 1vw;
+  font-weight: 600;
 }
 .Slikica{
   position: relative;
@@ -101,6 +103,7 @@ td{
   margin: 0;
   padding: 0;
 }
+
 .SSlika{
   width: 100%;
   height: 100%;
@@ -116,6 +119,7 @@ td{
   height: 1.5vw;
   background-color: black;
   color: white;
+  margin: 0;
 }
 .UUzSliku{
   position: absolute;
@@ -124,6 +128,7 @@ td{
   transform: translate(-50%, -1%);
   color: white;
   font-size: 1vw;
+  font-weight: 600;
 }
 .NaslovOCemu{
   font-size: 2vw;
@@ -227,11 +232,6 @@ td{
 .ita{
   font-family: 'roboto slab';
 }
-.SetSlika{
-  display: flex;
-  flex-direction: column;
-  width: 50%;
-}
 
 @media(max-width: 991px){
   /*AHAT NOVI*/
@@ -239,13 +239,11 @@ td{
     font-size: 7vw;
     text-size-adjust: none;
   }
-  .GalSlika{
-    flex-direction: column;
-  }
   .SetSlika{
     width: 100%;
   }
-  .Slikica{
+  .GalSlika{
+    flex-direction: column;
     width: 100%;
   }
   .SetSlika2{
@@ -374,4 +372,9 @@ td{
   .Prozorce{
     width: 30%;
   }
+}
+
+.contZa{
+  display: flex;
+  height: fit-content;
 }

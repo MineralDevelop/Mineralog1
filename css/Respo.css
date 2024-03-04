@@ -123,7 +123,23 @@
       }
       @media(max-width: 991px)
       {
-        
+        .Te1,.Te2{
+          font-size: 2vw;
+        } 
+        .Sl1{
+          height: 50vh;
+          width: 30vw;
+          border: solid 0.5vw;
+        }
+        .Sl2{
+          height: 40vh;
+          width: 40vw;
+          border: solid 0.5vw;
+        }
+        .Okv{
+          height: 40vh;
+          width: 50vw;
+        }
         .Gumbek{
           font-size: 3vw;
           padding: 1vw 3vw;
@@ -131,10 +147,6 @@
         }
         .SpojSpoj{
           align-items: start;
-        }
-        .TekstSpojeva{
-          display: flex;
-          flex-direction: column;
         }
         .SPDFNASLOV{
           display: flex;
@@ -148,6 +160,7 @@
           width: 3.5vw;
 
         }
+        
         .DDDDD{
           font-size: 2.5vw;
         }
@@ -245,6 +258,7 @@
           border: solid 0.5vw;
           
         }
+        
         .Pgraf{
           font-size: 2.3vw;
           line-height: 3.2vw;
@@ -280,6 +294,7 @@
         .HenryC, .VodikTuba{
           height: 35vw;
         }
+        
         .EKF{
           display: flex;
           flex-direction: column;
@@ -291,6 +306,7 @@
         .EKONFKONF{
             font-size: 3vw;
             border-width: 0.3vw;
+            width: 50vw;
         }
         .Skockica{
             height: 2.5vw;
@@ -304,6 +320,11 @@
         }
         .Fkockica{
             height: 2.5vw;
+        }
+        .Nasslov{
+          font-size: 3vw;
+            border-width: 0.3vw;
+            width: 50vw;
         }
         .Test{
             margin-right: -1.2vw;
@@ -340,6 +361,7 @@
           justify-content: space-between;
           border: solid 0.5vw;
         }
+        
         .EKF{
           height: 100%;
           justify-content: space-around;
@@ -373,10 +395,29 @@
         .TekstKoristi{
           font-size: 2.2vw;
           line-height: 2.7vw;
-          padding-bottom: 0.7vw;
-              text-size-adjust: none;
+          text-size-adjust: none;
+          padding-top: 0vw;
         }
         
+        .TekstKoristiwSpoj{
+          font-size: 2.2vw;
+          line-height: 2.7vw;
+          text-size-adjust: none;
+          padding-top: 0;
+          display: flex;
+          flex-direction: column;
+          align-items: start;
+        }
+        .Redic{
+          line-height: 3vw;
+        }
+        .SlikaStr{
+          height: 2vw;
+        }
+        .SlikaStr2{
+          height: 2vw;
+          padding-top: 0.6vw;
+        }
         .TekstKoristiSF{
           font-size: 2.2vw;
           line-height: 2.7vw;
@@ -384,20 +425,34 @@
           flex-direction: column;
               text-size-adjust: none;
         }
+        
         .StrKorist{
+          display: flex;
           font-size: 2.2vw;
-              text-size-adjust: none;
+          text-size-adjust: none;
+          border: solid;
+          height: 4vw;
+          align-items: start;
         }
+        
         .StrNapraviti{
           font-size: 2.2vw;
           padding-top: 0.3vw;
-              text-size-adjust: none;
+          text-size-adjust: none;
         }
         .TekstSpojeva{
           font-size: 2.2vw;
           line-height: 2.7vw;
-          padding-bottom: 0.7vw;
-              text-size-adjust: none;
+          text-size-adjust: none;
+          padding-top: 0;
+          display: flex;
+          flex-direction: column;
+        }
+        .SupSet{
+          vertical-align: top;
+          position: relative;
+          font-size: 1.2vw;
+          top: -0.2vw;
         }
         .Minerali-Novo{
           width: 90vw;
@@ -444,24 +499,78 @@
           text-decoration: none;
         }
         .Imee,.Formulaa,.Postotakk{
-          font-size: 1.6vw;
+          font-size: 1.8vw;
         }
+        
         .SubSet2{
-          top: 0.80vw;
+          top: 0.40vw;
           font-size: 1.2vw;
         }
+        .SubSet3{
+          top: 1.6vw;
+          font-size: 1.4vw;
+        }
+        .Tabla{
+          width: 100%;
+          border: none;
+        }
+        .Medju{
+          width: 90vw;
+          border: solid 0.5vw;
+          box-sizing: border-box;
+          margin-top: 1vw;
+        }
+        .SubSet4{
+          top: 0.8vw;
+          font-size: 1.2vw;
+        }
+        
         .GlNas{
-          font-size: 2vw;
+          font-size: 2.2vw;
         }
         .PodNI,.PodNF,.PodNP{
-          font-size: 1.5vw;
-          padding: 1vw 0vw;
+          font-size: 2vw;
+          padding: 0.5vw 0vw;
         }
         .SS{
           font-size: 1.2vw;
+          padding: 0;
         }
         .SL{
           font-size: 1.2vw;
+          padding: 0;
+        }
+        .TText{
+          font-size: 1.5vw;
+          font-weight: 400;
+        }
+        .TTText{
+          font-size: 1.5vw;
+          font-weight: 550;
+        }
+        .Boix{
+          margin-bottom: 3vw;
+        }
+        .Tan{
+          font-size: 1.6vw;
+          line-height: 2vw;
+        }
+        .Ops{
+          font-size: 1.6vw;
+          line-height: 2vw;
+        }
+        .TekstPodnaslova{
+          font-size: 1.8vw;
+          line-height: 2.5vw;
+        }
+        .Sl1{
+          height: 40vw;
+        }
+        .Okv{
+          height: 40vw;
+        }
+        .Sl2{
+          height: 40vw;
         }
       }
 

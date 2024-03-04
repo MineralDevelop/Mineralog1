@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500&family=Rubik:wght@500&display=swap');
+.Pojam{
+  font-family: 'roboto slab';
+  font-weight: 400;
+  font-size: 1vw;
+  margin-top: 1vw;
+  width: 100%;
+  text-align: justify;
+}
+.Settt{
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+}
